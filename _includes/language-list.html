@@ -1,0 +1,19 @@
+{% case site.language_archive.type %}
+  {% when "liquid" %}
+    {% assign path_type = "#" %}
+  {% when "jekyll-archives" %}
+    {% assign path_type = nil %}
+{% endcase %}
+
+{% if site.language_archive.path %}
+  {% assign language_sorted = page.language | sort_natural %}
+
+  <p data-cute="true" class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].language_label | default: "language:" }} </strong>
+    <span itemprop="keywords">
+    {% for language_word in language_sorted %}
+      <a style="font-weight: 600;" href="{{ language_word | slugify | prepend: path_type | prepend: site.language_archive.path | relative_url }}" class="page__taxonomy-item" rel="tag">{{ language_word }}</a>{% unless forloop.last %}<span class="sep">, </span>{% endunless %}
+    {% endfor %}
+    </span>
+  </p>
+{% endif %}

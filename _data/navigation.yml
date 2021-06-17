@@ -1,0 +1,12 @@
+# main links
+main:
+   - title: "Language" 
+     url: /language/
+   - title: "Categories"
+     url: /categories/
+   - title: "Yearly"
+     url: /year-archive/
+   - title: "Monthly"
+     url: /month-archive/
+   - title: tag
+     url: /tags/
