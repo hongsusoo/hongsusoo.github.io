@@ -1,1 +1,1 @@
-# hongsusoo.github.io
+[hongsusoo blog](https://hongsusoo.github.io/)
