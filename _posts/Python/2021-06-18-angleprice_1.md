@@ -16,9 +16,9 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - pyqt5
+  - py_proj1
 tags:
-  - [pyqt5,pandas]
+  - [py_proj1,pyqt5,pandas]
 date: 2021-06-19
 last_modified_at: 2021-06-19
 ---
