@@ -66,7 +66,7 @@ class MyApp(QWidget):
     def set_label(self, row, column): #마우스로 선택한 cell의 data출력
 ```
 <br>
-
+  
   ### 2-1.  `__init__(self)`
 
   ```python
