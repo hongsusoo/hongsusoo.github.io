@@ -67,7 +67,7 @@ class MyApp(QWidget):
 ```
 <br>
   
-  ### 2-1.  `__init__(self)`
+### 2-1.  `__init__(self)`
 
   ```python
   def __init__(self):
@@ -84,7 +84,7 @@ class MyApp(QWidget):
   - self.r=0 : row 추가/제거 시 row 수를 확인하기 위한 변수(class 전체에서 사용됨)
 <br>
 
-  ### 2-2.  `initUI(self)`
+### 2-2.  `initUI(self)`
   ```python
   def initUI(self):
     
@@ -132,7 +132,7 @@ class MyApp(QWidget):
   - show() : 창 띄워줌
 <br>
 
-  ### 2-3.  `read_exl(self)`
+### 2-3.  `read_exl(self)`
   ```python
   def read_exl(self): #Data 불러오기
     self.df = pd.read_excel("C:/.../.../~.xlsx",sheet_name = "aa") #불러올 파일 경로 및 이름
@@ -144,7 +144,7 @@ class MyApp(QWidget):
   - shape[1]은 행의 크기, shape[0]은 열 크기로 각각 col, row변수에 입력시킴
 <br>
 
-  ### 2-4.  `set_exl(self)`  
+### 2-4.  `set_exl(self)`  
   ```python
   self.tableWidget.setHorizontalHeaderLabels(self.df.columns)
   for i in range(self.row):
@@ -159,7 +159,7 @@ class MyApp(QWidget):
   - setItem 함수로 table 각 cell에 접근하여 data입력
 <br>
 
-  ### 2-5.  `add_row(self)`    
+### 2-5.  `add_row(self)`    
   ```python
   def add_row(self): #맨 아래 행 추가
     self.row += 1
@@ -173,7 +173,7 @@ class MyApp(QWidget):
   - 기존 `df`에 마지막 행을 append하여 추가해줌
 <br>
 
-  ### 2-6.  `del_row(self)` 
+### 2-6.  `del_row(self)` 
   ```python
   def del_row(self): #선택 행 삭제
     self.tableWidget.removeRow(self.r)
@@ -189,7 +189,7 @@ class MyApp(QWidget):
     - 해당 행을 nan값으로 바꿔준 후 dropna를 진행, index초기화
 <br>
 
-  ### 2-7.  `save_data(self)`  
+### 2-7.  `save_data(self)`  
   ```python
   def save_data(self): #엑셀로 저장       
       for i in range(self.row):
@@ -204,7 +204,7 @@ class MyApp(QWidget):
   - `index = False` 로 진행해야 index값
 <br>
 
-  ### 2-6.  `set_label(self, row, column)`  
+### 2-8.  `set_label(self, row, column)`  
   ```python
   def set_label(self, row, column): 
     item = self.tableWidget.item(row, column)

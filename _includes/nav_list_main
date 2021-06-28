@@ -36,7 +36,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "py_proj1" %}
-                        <li><a href="/categories/py_proj1" class="">project_angleprice({{category[1].size}})</a></li>
+                        <li><a href="/categories/py_proj1" class="">project angleprice({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
