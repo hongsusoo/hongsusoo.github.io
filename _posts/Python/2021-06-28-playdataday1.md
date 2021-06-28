@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[playdata_day1] Python 기초 문법 정리"
+title: "[playdata_day1] Python 기초"
 excerpt: "about : python"
 toc: true
 toc_sticky: true
@@ -25,7 +25,7 @@ last_modified_at: 2021-06-28
 
 # python 기초
 
-## Python IDE 소개
+## Python 인터프리터 및 컴파일러
 
 <br>
 
