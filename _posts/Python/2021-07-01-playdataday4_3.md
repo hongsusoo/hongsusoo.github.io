@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[playdata_day3] python 기초/응용3"
+title: "[playdata_day4] python 기초/응용4"
 excerpt: "about : python"
 toc: true
 toc_sticky: true

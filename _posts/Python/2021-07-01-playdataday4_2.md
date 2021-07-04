@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[playdata_day3] Python 기초3"
+title: "[playdata_day4] python 기초/응용3"
 excerpt: "about : python"
 toc: true
 toc_sticky: true
@@ -23,229 +23,175 @@ date: 2021-07-01
 last_modified_at: 2021-07-01
 ---
 
-# python 기초/응용2
+# python 기초/응용3
 
-## 1. 문자열 응용
+## 3. Dictionary 조작
 
-### 1-1 replace(문자열 변경)
+### 3-1 setdefault
 
-- 문자열 내에 부분 문자열을 다른 문자열로 바꿈
-- 문자열 자체는 변경하지 않고, 반뀐 결과를 Return 함
-- `"문자열".replace('부분문자열','교체문자열)` 형식으로 사용함
+- dictionary에 key,value값을 추가해줌
 
 ```python
-s='hello world!'.replace('world','Python')
-print(s)
+x = {'a' : 10, 'b' : 20, 'c' : 30, 'd' : 40}
+x.setdefault('e')
+x.setdefault('f', 100)
+print(x)
 ```
-result : hello Python!
+result : {'a': 10, 'b': 20, 'c': 30, 'd': 40, 'e': None, 'f': 100}
 
-### 1-2 translate(문자열 변경)
+### 3-2 update
 
-- translate는 문자열 안의 문자를 다른 문자로 바꿈
-- 1차적으로 `table=str.maketrans('바꿀문자','새문자')`형식으로 규칙을 만들어줌
-- 그 다음 `'문자열'.translate(table)` 형식으로 사용
+- dictionary의 key에 해당하는 value값을 수정 및 추가 가능
+- `dic.update({key:'value'})`형식으로 사용(key는 숫자, 튜플 등 가능함)
+- key가 문자열 형태이면 `dic.update(key='value')`형식으로 사용 가능
 
 ```python
-table=str.maketrans('abcd','1234')
-s='a1b2c3d4'.translate(table)
-print(s)
+y={1:'one',2:'two'}
+y.update({1:'ONE',3:'THREE'})
+y.update(a="에")
+print(y)
 ```
-result : 11223344
+result : {1: 'ONE', 2: 'two', 3: 'THREE', 'a': '에'}
 
-### 1-3 split
+#### 3-2-1 list 형식으로 update
 
-- 문자열을 특정 문자를 기준으로 구분해줌
-- default값은 `' '`
+- `[[key1,value1],[key2,value2]]`형식으로 update가능
+
 ```python
-'1,2,3'.split(',')
+y={1:'one',2:'two'}
+y.update([[3,'Three'],[4,'Four']])
+print(y)
 ```
-result : ['1','2','3']
+result : {1: 'one', 2: 'two', 3: 'Three', 4: 'Four'}
 
-### 1-4 join
+### 3-3 pop(삭제)
 
-- 문자열 list를 구분자 문자열과 결합하여 문자열을 만듬
-
-```python
-','.join(['1','2','3'])
-```
-result : '1,2,3'
-
-### 1-5 대소문자 변경
-
-- `upper`문자열 내에 소문자를 대문자로 바꿔줌
-- `lower`문자열 내에 대문자를 소문자로 바꿔줌
+- dictionary 내에서 key-value 값을 삭제한 후 value 반환
+- 만약 key값이 없을 경우에 대한 처리기능 있음
+- `dic.pop(key,'key없을경우 출력')` 형식으로 사용
 
 ```python
-print(f'upper : {"abc가나다".upper()}')
-print(f'lower : {"ABC가나다".lower()}')
+y={1:'one',2:'two'}
+print(y.pop(1,"key 없음"))
+print(y.pop(1,"key 없음"))
 ```
 result : <br>
-upper : ABC가나다  <br>
-lower : abc가나다
+one <br>
+key 없음
 
-### 1-6 lstrip,rstrip,strip(공백, 특정 문자 삭제)
+#### 3-3-1 popitem(맨뒤 삭제)
 
-- `'문자열'.lstrip('삭제할 문자')` 문자열의 왼쪽에 특정 문자 삭제
-- `'문자열'.rstrip('삭제할 문자')` 문자열의 오른쪽에 특정 문자 삭제
-- `'문자열'.strip('삭제할 문자')` 문자열의 양쪽에 특정 문자 삭제
+- dictionary는 key-value 묶음으로 되어있는데, 이 묶음을 item이라고함
+- 맨 뒤에 item을 반환하고, dictionary 내에서 제거
+- `dic.popitem()`형식으로 사용
 
 ```python
-print(f'lstrip : {",. string ,.".lstrip(",. ")}')
-print(f'rstrip : {",. string ,.".rstrip(",. ")}')
-print(f'strip : {",. string ,.".strip(",. ")}')
+y={1:'one',2:'two'}
+print(y.popitem())
+```
+result : (2, 'two')
+
+### 3-4 get
+
+- dictionary 내에서 찾고자 하는 key를 입력하면 Value 반환
+- pop과 다르게 항목이 삭제되지 않고 가져오기만함
+
+```python
+y={1:'one',2:'two'}
+print(y.get(1))
+```
+result : 'one'
+
+
+### 3-5 keys, values, items
+
+- keys는 dictionary의 key들을 가져옴
+- values는 dictionary의 value들을 가져옴
+- dict_keys() type이기 때문에 sequecne 자료형 처럼 subscriptable할 수 없음
+
+```python
+x={'a':10,'b':20,'c':30,'d':40}
+print(f'keys = {x.keys()}')
+print(f'values = {x.values()}')
+print(f'items = {x.items()}')
 ```
 result : <br>
-lstrip : string ,. <br>
-rstrip : ,. string <br>
-strip : string
+keys = dict_keys(['a', 'b', 'c', 'd']) <br>
+values = dict_values([10, 20, 30, 40]) <br>
+items = dict_items([('a', 10), ('b', 20), ('c', 30), ('d', 40)])  
 
-### 1-7 ljust,rjust,center(정렬)
 
-- 지정한 길이 만큼으로 string을 늘린다음 문자열을 정렬
-- `'문자열'.ljust(길이)` 문자열의 왼쪽으로 정렬
-- `'문자열'.rjust(길이)` 문자열의 오른쪽으로 정렬
-- `'문자열'.center(길이)` 문자열의 센터으로 정렬(자리가 홀수개로 남으면 왼쪽으로 한칸 더 들어감)
+### 3-6 fromkeys(w. list, tuple)
+
+- 리스트나 튜플을 key값으로 하여 dictionary 생성
+- `dict.fromkeys(keys,value)`형식으로 사용
+- value 지정 안해주면 None으로 자동 저장
 
 ```python
-print(f'ljust : {"python".ljust(10)}')
-print(f'rjust : {"python".rjust(10)}')
-print(f'center : {"python".center(10)}')
+keys = ['a','b','c','d']
+x=dict.fromkeys(keys)
+y=dict.fromkeys(keys,100)
+print(f'x = {x}')
+print(f'y = {y}')
 ```
 result : <br>
-ljust : python     <br>
-rjust :     python <br>
-center :   python   
+x = {'a': None, 'b': None, 'c': None, 'd': None} <br>
+y = {'a': 100, 'b': 100, 'c': 100, 'd': 100}
 
-### 1-8 Mathod Chaining(메소드 체이닝)
-
-- `input().split()` 처럼 두개 이상의 mathod를 연결시켜 사용할 있음
-
-### 1-9 zfill 
-
-- 왼쪽에 0을 채워줌
-- 문자열 길이를 맞출때 사용됨
-
-### 1-10 find, rfind
-
-- 문자열에서 특정 문자열을 찾아 인덱스로 반환
-- 문자열이 없으면 -1로 반환
-- 문자열에서 찾는 문자열이 여러 개일 경우 처음 찾는 문자열의 인덱스를 반환
-- index도 동일한 기능이 있지만, 찾는 문자열이 없을 경우 error 발생
-- rfind의 경우 오른쪽부터 문자열을 찾아나감
+### 3-7 dictionary 표현식
 
 ```python
-s='abacd'.find('a')
-print(s)
-s='abacd'.rfind('a')
-print(s)
+print({key : value for key,value in dict.fromkeys( ['a','b','c','d']).items()})
+print({key : 0 for key in dict.fromkeys( ['a','b','c','d']).keys()})
 ```
 result : <br>
-0 <br>
-2
-
-### 1-11 index, rindex
-
-- 문자열에서 특정 문자열을 찾아 인덱스로 반환
-- 문자열이 없으면 error 발생
-- rindex의 경우 오른쪽부터 문자열을 찾아나감
+{'a': None, 'b': None, 'c': None, 'd': None} <br>
+{'a': 0, 'b': 0, 'c': 0, 'd': 0}
 
 
-### 1-12 count
-1
-- 문자열에서 특정 문자열이 몇 번 나오는지 확인
-- `'문자열'.count('찾을 문자열')`형식으로 사용
+### 3-8 Dictionary 안에 Dictionary
+
+- `딕셔너리 = {key1:{keyA:valueA},key2:{keyB:valueB}}` 형식으로 된 형태
+- key값을 연속으로 사용하여 value값 가져올 수 있음
 
 ```python
-'apple pineapple'.count('pl')
+x={'a':{'A' :10},'b':{'B':20}}
+print(x['a']['A'])
 ```
-result : 2
+result : 10
 
-### 1-13 서식 지정자
+### 3-9 dictionary 할당과 복사
 
-- 문자열 안에서 특정부분을 원하는 변수나 값으로 바꿀때 유용함
-- 문자, 정수, 실수를 구분하여 받아야함(다르게 넣을 경우 error 발생)
-
-#### 1-13-1 서식 지정자 문자열, 숫자 넣기 
+- list와 동일하게 dictionary도 복사할 경우 메모리를 공유하여하 나를 변경하면, 다른 하나도 변경됨
+- dictionary 복사 시 모든 item을 하나씩 복사해줘야함
+- dic.copy()를 사용하면 새롭게 메모리를 할당하여 할 수 있음
 
 ```python
-age = 13
-print('I am %d' %age)
-name = 'haha'
-print('I am %s' %name)
-print('%s %d' %(name,age))
+x={'a':10,'b':20,'c':30,'d':40}
+y=x
+z=x.copy()
+k={k:v for k,v in x.items()}
+print("x, y 메모리 비교 : ",x is y)
+print("x, z 메모리 비교 : ",x is z)
+print("x, k 메모리 비교 : ",x is k)
 ```
 result : <br>
-I am 13 <br>
-I am haha <br>
-haha 13
+x, y 메모리 비교 :  True <br>
+x, z 메모리 비교 :  False <br>
+x, k 메모리 비교 :  False
 
-#### 1-13-2 소수점 표현
 
-- `"%.자리수f" % 숫자` 형식으로 사용
+### 3-10 deepcopy 
 
-```python
-print('%.2f' %2.3)
-```
-result : 2.30
+- 중첩된 dictionary의 경우는 copy로 해도 원본과 복사본 모두 변경됨
+- 이럴땐 import copy 모듈에 있는 deepcopy 함수를 이용해야함
 
-#### 1-13-3 오른쪽, 왼쪽 정렬
 
-- `'%길이s' % 'python'` 형식으로 사용
 
-```python
-print('%.10s' %'python)
-```
-result : '    python'
+### 3-8 clear
 
-### 1-14 format
-
-- 서식 지정자와는 다르게 문자,숫자,실수 구분없이 받을 수 있음
-
-#### 1-14-1 format 사용
-
-![image](https://user-images.githubusercontent.com/77658029/124053293-efcc7d80-da5a-11eb-818b-1404fbdea634.png)
-↳ `{인덱스 : [채울문자][정렬방식(<,>)][문자열길이][.자리수][자료형]}.format()`
-
-```python
-'Hello, {0} {2} {1}'.format('0','2','1')
-```
-result : Hello, 0 1 2
-
-- 문자로 대체 가능
-
-```python
-'Hello, {language} {version}'.format(language='Python',version=3.6)
-```
-result : Hello, Python 3.6
-
-- 숫자 개수 맞추기도 가능함
-
-```python
-'{0:0.2f} != {1:0.4f}'.format(3.6,3.6)
-```
-
-- 정렬도 가능
-
-```python
-print('왼쪽정렬 : {0:0<10}'.format(15))
-print('오른쪽 정렬 : {0:0>10}'.format(15))
-```
-result : <br>
-왼쪽정렬 : 1500000000 <br>
-오른쪽 정렬 : 0000000015
-
-#### 1-14-2 formatting 줄임표현
-
-- `f'data1 = {data1:[채울문자][정렬방식(<,>)][문자열길이][.자리수][자료형]}'`형식으로 사용 가능함
-
-```python
-print(f'왼쪽정렬 : {15:0<10}')
-print(f'오른쪽 정렬 : {15:0>10}')
-```
-result : <br>
-왼쪽정렬 : 1500000000 <br>
-오른쪽 정렬 : 0000000015
-
+- dictionary 전체 item을 제거
+- `dic.clear()` 형식으로 사용
 
 
 <br><br>

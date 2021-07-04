@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[playdata_day3] Python 기초3"
+title: "[playdata_day4] python 기초/응용2"
 excerpt: "about : python"
 toc: true
 toc_sticky: true
@@ -25,9 +25,9 @@ last_modified_at: 2021-07-01
 
 # python 기초/응용2
 
-## 1. 문자열 응용
+## 2. 문자열 응용
 
-### 1-1 replace(문자열 변경)
+### 2-1 replace(문자열 변경)
 
 - 문자열 내에 부분 문자열을 다른 문자열로 바꿈
 - 문자열 자체는 변경하지 않고, 반뀐 결과를 Return 함
@@ -39,7 +39,7 @@ print(s)
 ```
 result : hello Python!
 
-### 1-2 translate(문자열 변경)
+### 2-2 translate(문자열 변경)
 
 - translate는 문자열 안의 문자를 다른 문자로 바꿈
 - 1차적으로 `table=str.maketrans('바꿀문자','새문자')`형식으로 규칙을 만들어줌
@@ -52,7 +52,7 @@ print(s)
 ```
 result : 11223344
 
-### 1-3 split
+### 2-3 split
 
 - 문자열을 특정 문자를 기준으로 구분해줌
 - default값은 `' '`
@@ -61,7 +61,7 @@ result : 11223344
 ```
 result : ['1','2','3']
 
-### 1-4 join
+### 2-4 join
 
 - 문자열 list를 구분자 문자열과 결합하여 문자열을 만듬
 
@@ -70,7 +70,7 @@ result : ['1','2','3']
 ```
 result : '1,2,3'
 
-### 1-5 대소문자 변경
+### 2-5 대소문자 변경
 
 - `upper`문자열 내에 소문자를 대문자로 바꿔줌
 - `lower`문자열 내에 대문자를 소문자로 바꿔줌
@@ -83,7 +83,7 @@ result : <br>
 upper : ABC가나다  <br>
 lower : abc가나다
 
-### 1-6 lstrip,rstrip,strip(공백, 특정 문자 삭제)
+### 2-6 lstrip,rstrip,strip(공백, 특정 문자 삭제)
 
 - `'문자열'.lstrip('삭제할 문자')` 문자열의 왼쪽에 특정 문자 삭제
 - `'문자열'.rstrip('삭제할 문자')` 문자열의 오른쪽에 특정 문자 삭제
@@ -99,7 +99,7 @@ lstrip : string ,. <br>
 rstrip : ,. string <br>
 strip : string
 
-### 1-7 ljust,rjust,center(정렬)
+### 2-7 ljust,rjust,center(정렬)
 
 - 지정한 길이 만큼으로 string을 늘린다음 문자열을 정렬
 - `'문자열'.ljust(길이)` 문자열의 왼쪽으로 정렬
@@ -116,16 +116,16 @@ ljust : python     <br>
 rjust :     python <br>
 center :   python   
 
-### 1-8 Mathod Chaining(메소드 체이닝)
+### 2-8 Mathod Chaining(메소드 체이닝)
 
 - `input().split()` 처럼 두개 이상의 mathod를 연결시켜 사용할 있음
 
-### 1-9 zfill 
+### 2-9 zfill 
 
 - 왼쪽에 0을 채워줌
 - 문자열 길이를 맞출때 사용됨
 
-### 1-10 find, rfind
+### 2-10 find, rfind
 
 - 문자열에서 특정 문자열을 찾아 인덱스로 반환
 - 문자열이 없으면 -1로 반환
@@ -143,14 +143,14 @@ result : <br>
 0 <br>
 2
 
-### 1-11 index, rindex
+### 2-11 index, rindex
 
 - 문자열에서 특정 문자열을 찾아 인덱스로 반환
 - 문자열이 없으면 error 발생
 - rindex의 경우 오른쪽부터 문자열을 찾아나감
 
 
-### 1-12 count
+### 2-12 count
 1
 - 문자열에서 특정 문자열이 몇 번 나오는지 확인
 - `'문자열'.count('찾을 문자열')`형식으로 사용
@@ -160,12 +160,12 @@ result : <br>
 ```
 result : 2
 
-### 1-13 서식 지정자
+### 2-13 서식 지정자
 
 - 문자열 안에서 특정부분을 원하는 변수나 값으로 바꿀때 유용함
 - 문자, 정수, 실수를 구분하여 받아야함(다르게 넣을 경우 error 발생)
 
-#### 1-13-1 서식 지정자 문자열, 숫자 넣기 
+#### 2-13-1 서식 지정자 문자열, 숫자 넣기 
 
 ```python
 age = 13
@@ -179,7 +179,7 @@ I am 13 <br>
 I am haha <br>
 haha 13
 
-#### 1-13-2 소수점 표현
+#### 2-13-2 소수점 표현
 
 - `"%.자리수f" % 숫자` 형식으로 사용
 
@@ -188,7 +188,7 @@ print('%.2f' %2.3)
 ```
 result : 2.30
 
-#### 1-13-3 오른쪽, 왼쪽 정렬
+#### 2-13-3 오른쪽, 왼쪽 정렬
 
 - `'%길이s' % 'python'` 형식으로 사용
 
@@ -197,11 +197,11 @@ print('%.10s' %'python)
 ```
 result : '    python'
 
-### 1-14 format
+### 2-14 format
 
 - 서식 지정자와는 다르게 문자,숫자,실수 구분없이 받을 수 있음
 
-#### 1-14-1 format 사용
+#### 2-14-1 format 사용
 
 ![image](https://user-images.githubusercontent.com/77658029/124053293-efcc7d80-da5a-11eb-818b-1404fbdea634.png)
 ↳ `{인덱스 : [채울문자][정렬방식(<,>)][문자열길이][.자리수][자료형]}.format()`
@@ -234,7 +234,7 @@ result : <br>
 왼쪽정렬 : 1500000000 <br>
 오른쪽 정렬 : 0000000015
 
-#### 1-14-2 formatting 줄임표현
+#### 2-14-2 formatting 줄임표현
 
 - `f'data1 = {data1:[채울문자][정렬방식(<,>)][문자열길이][.자리수][자료형]}'`형식으로 사용 가능함
 
