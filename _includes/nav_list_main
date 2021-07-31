@@ -21,15 +21,15 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "coding_test" %}
-                        <li><a href="/categories/coding_test" class="">Coding Test({{category[1].size}})</a></li>
+                    {% if category[0] == "algorithm" %}
+                        <li><a href="/categories/algorithm" class="">Algorithm({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "py_grammar" %}
-                        <li><a href="/categories/py_grammar" class="">문법 & Error({{category[1].size}})</a></li>
+                        <li><a href="/categories/py_grammar" class="">Grammar({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
