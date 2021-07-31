@@ -1,5 +1,5 @@
 ---
-title: "문법 & Error"
+title: "Grammar"
 layout: archive
 permalink: categories/py_grammar
 author_profile: true
