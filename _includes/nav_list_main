@@ -74,8 +74,8 @@
         <span class="nav__sub-title">ETC</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "etc" %}
-                        <li><a href="/categories/etc" class="">etc({{category[1].size}})</a></li>
+                    {% if category[0] == "BoostCourse" %}
+                        <li><a href="/categories/BoostCourse" class="">boost course({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
