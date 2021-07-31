@@ -18,26 +18,20 @@ toc_label: "Label"
 categories:
   - boostcourse
 tags:
-  - [python,pyqt5,pandas]
+  - [python]
 date: 2021-08-01
 last_modified_at: 2021-08-01
 ---
 <br>
 
-**pre-course**
-<!-- 
-</a>|<a href="URL" target="_blank"><img src="https://img.shields.io/badge/Day-01-red"/> -->
+#### **pre-course**
 
-**U-Stage(2021.08.02~)**
-- [week01] python basic
-  - </a>|<a href="https://hongsusoo.github.io/py_grammar/grammar01/"><img src="https://img.shields.io/badge/Day-01-red"/>
-  <!-- </a>|<a href="URL" target="_blank"><img src="https://img.shields.io/badge/Day-02-orange"/>
-  </a>|<a href="URL" target="_blank"><img src="https://img.shields.io/badge/Day-03-yellow"/>
-  </a>|<a href="URL" target="_blank"><img src="https://img.shields.io/badge/Day-04-green"/>
-  </a>|<a href="URL" target="_blank"><img src="https://img.shields.io/badge/Day-05-blue"/> -->
+#### **U-Stage(2021.08.02~)**
+##### [week01] python basic
+  - <a href="https://hongsusoo.github.io/py_grammar/grammar01/"><img src="https://img.shields.io/badge/-Day01-red"/></a>
 
 
-</a>|<a href="URL" target="_blank"><img src="https://img.shields.io/badge/-Day05-blue"/>
+<a href="URL" target="_blank"><img src="https://img.shields.io/badge/-Day05-blue"/></a>
 
 <!-- red orange yellow green blue -->
 <!-- https://shields.io/ -->
