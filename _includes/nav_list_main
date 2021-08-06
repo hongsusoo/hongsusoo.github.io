@@ -14,8 +14,8 @@
         <span class="nav__sub-title">python</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "data_science" %}
-                        <li><a href="/categories/data_science" class="">Data Science({{category[1].size}})</a></li>
+                    {% if category[0] == "AI" %}
+                        <li><a href="/categories/AI" class="">AI({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

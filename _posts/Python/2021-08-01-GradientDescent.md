@@ -16,9 +16,9 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - algorithm
+  - AI
 tags:
-  - [python, linear regression, gradient descent]
+  - [python, AI Math, linear regression, gradient descent]
 date: 2021-08-01
 last_modified_at: 2021-08-01
 ---
