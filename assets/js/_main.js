@@ -108,7 +108,9 @@ $(document).ready(function() {
     // Class that is added to body when popup is open.
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: "mfp-zoom-in",
-    callbacks: {
+    
+    
+    llbacks: {
       beforeOpen: function() {
         // just a hack that adds mfp-anim class to markup
         this.st.image.markup = this.st.image.markup.replace(
