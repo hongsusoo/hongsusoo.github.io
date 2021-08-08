@@ -26,7 +26,7 @@ last_modified_at: 2021-08-03
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/AI/neural_network_basic"><img src="https://img.shields.io/badge/-NN basic-red"/></a> <a href="https://hongsusoo.github.io/AI/probability_theory"><img src="https://img.shields.io/badge/-확률론-red"/></a>
+<a href="https://hongsusoo.github.io/ai/neural_network_basic"><img src="https://img.shields.io/badge/-NN basic-red"/></a> <a href="https://hongsusoo.github.io/ai/probability_theory"><img src="https://img.shields.io/badge/-확률론-red"/></a>
 
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
@@ -78,7 +78,7 @@ last_modified_at: 2021-08-03
 
 오늘은 간단하게 numpy의 메모리에 대해서 질문을 했는데, 다들 너무 적극적으로 대답해줘서, 좋은 답을 얻을 수 있었다. 
 
-설명을 잘 못했는데 유능한 팀원들이 찰떡같이 알아들었는데, 설명하는 방식에 대해서도 조금 노력이 필요할 것 같다. 내 생각을 일목요연하게 표현하는 연습을 하기 위해 매일 글로 조금씩 남겨봐야겠다. 
+그리고 설명하는 방식에 대해서도 조금 노력이 필요할 것 같다. 어떤 부분이 모르는건지 얼버무리며 질문하는 내 모습도 답답한게 아직은 개발자의 소통 언어에 대해서 연습을 해야할 것 같다. 머리 속 생각을 일목요연하게 표현하는 연습으로 매일 배운 내용이나, 이해한 내용을 글로 조금씩 남겨봐야겠다. 
 
 
 <br>

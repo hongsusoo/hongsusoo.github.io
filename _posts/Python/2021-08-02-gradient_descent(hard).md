@@ -26,7 +26,7 @@ last_modified_at: 2021-08-02
 
 # 경사하강법을 통한 선형 회귀
 
-- 역행렬과 무어펜로즈(Moore-penrose)역행렬을 통하여 선형회귀가 가능하지만, 다른 방식의 모델 사용 불가
+- 역행렬과 무어펜로즈(Moore-penrose)역행렬을 통하여 선형회귀가 가능하지만, 선형 모델에 대해서만 적용이 가능함
 
 **🔑 경사하강법을 통한 선형회귀**
 
@@ -55,6 +55,7 @@ last_modified_at: 2021-08-02
 
 ## 선형회귀 algorithm 구현(경사하강법)
 
+**📰code**
 ```python
 import numpy as np
 
@@ -76,6 +77,7 @@ for t in range(10000):
     
 print(beta_gd)
 ```
+**🔍result**
 ```
 [1. 2. 3.]
 ```
@@ -92,8 +94,12 @@ print(beta_gd)
 
 ### 경사하강법 gradient vector 계산
 
+<br>
+
+<a href="https://hongsusoo.github.io/categories/GradientDescent"><img src="https://img.shields.io/badge/gradient vector-수식 유도-green"/></a>
 
 
+<br>
 
 ## 확률적 경사하강법(Stochastic Gradient Descent)
 
@@ -119,12 +125,136 @@ print(beta_gd)
 
 ![image](https://user-images.githubusercontent.com/77658029/127515340-fca8d0ed-c7c3-4330-9c2f-f9ef4563bd25.png)
 
+
+## 경사하강법 vs 미니배치 SGD code 비교
+
+**📰code**
+```python
+import numpy as np
+import sympy as sym
+from sympy.abc import x,w,b #추가
+from sympy.plotting import plot
+
+train_x = (np.random.rand(1000) - 0.5) * 10
+train_y = np.zeros_like(train_x)
+
+
+def func(val):
+    fun = sym.poly(7*x + 2)
+    return fun.subs(x, val)
+
+def l2_norm(x): #추가
+    x_norm = x*x
+    x_norm = np.sum(x_norm)
+    x_norm = np.sqrt(x_norm)
+    return x_norm    
+
+for i in range(1000):
+    train_y[i] = func(train_x[i])
+
+# initialize
+lr_rate = 1e-2
+w, b = 0.0, 0.0
+n_data = 1000
+errors_gd = []
+
+# 경사하강법
+expand_x = np.array([np.append(x, [1]) for x in train_x])
+
+for i in range(100):
+    ## Todo
+    # 예측값 y
+    _y = w*train_x+b
+    
+    # gradient
+    gradient_w = - np.transpose(expand_x)[0]@(train_y-_y)/n_data #l2_norm(train_y-_y) #값이 작어지며 learning rate를 크게 듦
+    gradient_b = - np.transpose(expand_x)[1]@(train_y-_y)/n_data #l2_norm(train_y-_y) 
+
+    # w, b update with gradient and learning rate
+    w -= lr_rate * gradient_w
+    b -= lr_rate * gradient_b
+    
+    # L2 norm과 np_sum 함수 활용해서 error 정의
+    error_gd = l2_norm(train_y-_y)
+    # Error graph 출력하기 위한 부분
+    errors_gd.append(error_gd)
+
+print("경사하강법 w : {} / b : {} / error : {}".format(w, b, error_gd))
+
+# initialize
+w, b = 0.0, 0.0
+n_data = 10
+minibatch_size = 10
+errors_sgd = []
+
+# 확률적 경사하강법
+for i in range(100):
+    ## Todo
+    #minibatch 10
+    minibatch_idx = np.random.choice(train_y.shape[0], minibatch_size, replace = True)
+    minibatch_x = train_x[minibatch_idx]
+    minibatch_y = train_y[minibatch_idx]
+    
+    # 예측값 y
+    _y = w*minibatch_x +b
+    
+    # gradient
+    gradient_w = -np.transpose(minibatch_x)@(minibatch_y-_y)/n_data    #l2_norm(minibatch_y-_y) #값이 작어지며 learning rate를 크게 듦
+    gradient_b = -np.ones(10)@(minibatch_y-_y)/n_data                  #l2_norm(minibatch_y-_y)
+
+    # w, b update with gradient and learning rate
+    w = w - lr_rate*gradient_w
+    b = b - lr_rate*gradient_b
+    
+    # L2 norm과 np_sum 함수 활용해서 error 정의
+    error_sgd = l2_norm(minibatch_y-_y)
+    # Error graph 출력하기 위한 부분
+    errors_sgd.append(error_sgd)
+
+print("확률적 경사하강법 w : {} / b : {} / error : {}".format(w, b, error_sgd))
+```
+**🔍result** 
+정답은 w : 7, b : 2
+```
+경사하강법 w : 7.000429738930361 / b : 1.2742577531192194 / error : 23.181636293256783
+확률적 경사하강법 w : 7.039753269083189 / b : 1.2571391750926415 / error : 2.2038064311604137
+```
+
+### GD vs SGD 그래프
+
+**📰code**
+```python
+from IPython.display import clear_output
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+def plot(errors_gd,errors_sgd):
+    clear_output(True)
+    plt.figure(figsize=(20,5))
+    plt.subplot(211)
+    plt.ylabel('errors_gd')
+    plt.xlabel('time step')
+    plt.plot(errors_gd)
+    plt.show()
+    
+    plt.figure(figsize=(20,5))
+    plt.subplot(212)
+    plt.ylabel('errors_sgd')
+    plt.xlabel('time step')
+    plt.plot(errors_sgd)
+    plt.show()
+plot(errors_gd,errors_sgd)
+```
+**🔍result** 
+![image](https://user-images.githubusercontent.com/77658029/128598620-edeb82e4-64d0-4b49-829a-3e24af5ef3f7.png)
+
+
 **📌reference**
 - boostcourse AI tech pre-course
 - https://www.kakaobrain.com/blog/113
 
-
 <br>
+
 ```
 💡 수정 필요한 내용은 댓글이나 메일로 알려주시면 감사하겠습니다!💡 
 ```

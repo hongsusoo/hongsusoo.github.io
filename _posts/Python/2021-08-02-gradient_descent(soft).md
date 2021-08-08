@@ -59,10 +59,10 @@ Poly(2𝑥+2,𝑥,𝑑𝑜𝑚𝑎𝑖𝑛=ℤ)
 - 점화식 표현 $x_n=x_{n-1}±f'(x_{n-1})$   $for f'(x_n) > ε$ (+ : 상승, - : 하강)
 
 💡 경사상승법
-![image](https://user-images.githubusercontent.com/77658029/127119457-6f18c60a-3e0a-4803-9e18-16f959fb794b.png)
+![image](https://user-images.githubusercontent.com/77658029/128594059-011427f2-804c-43c3-ad7f-5316a7e64488.png)
 
 💡 경사하강법
-![image](https://user-images.githubusercontent.com/77658029/127120676-05df0b12-adcb-4d39-ad4f-a94003c8fa4d.png)
+![image](https://user-images.githubusercontent.com/77658029/128594069-5ddeae88-55fd-4297-b743-df62ebf952f7.png)
 
 
 ## 경사법 algorithm
@@ -71,6 +71,7 @@ Poly(2𝑥+2,𝑥,𝑑𝑜𝑚𝑎𝑖𝑛=ℤ)
 2. x_init : 시작점, learning_rate : 학습률, epsilon : 종료조건
 ※ 학습률의 경우는 미분을 통해 업데이트 하는 속도를 조절하는데, 값을 잘못 설정하면 수렴값에 도달하지 않을 수도 있음
 
+**📰code**
 ```python
 import numpy as np
 import sympy as sym
@@ -105,6 +106,7 @@ def gradient_descent(func, x_init, lr=0.3,epsilon=1e-2): #경사하강법
 gradient_ascent(func=sym.poly(-x**2), x_init=10) #경사상승법
 gradient_descent(func=sym.poly(x**2), x_init=10) #경사하강법
 ```
+**🔍result**
 ```
 경사상승 - 함수 : Poly(-x**2, x, domain='ZZ'), 최대점 : (0.00, -0.00)
 경사하강 - 함수 : Poly(x**2, x, domain='ZZ'), 최소점 : (0.00, 0.00)
@@ -136,9 +138,6 @@ gradient_descent(func=sym.poly(x**2), x_init=10) #경사하강법
 💡 gradient vector direction
 ![image](https://user-images.githubusercontent.com/77658029/127168616-c8440173-99e1-4ff3-8834-62c20f3bd947.png)
 
-**📌reference**
-- boostcourse AI tech pre-course
-- https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%9A%B8%EA%B8%B0_(%EB%B2%A1%ED%84%B0)
 
 
 ## 경사법 algorithm(다변수 함수 gradient)
@@ -179,11 +178,14 @@ gradient_descent(func=sym.poly(x**2+2*y**2), x_init=np.array([2,2])) #경사하�
 연산횟수 : 7,최소점 : (0.00, -0.00), 최소값 : 0.00
 경사하강 - 함수 : Poly(x**2 + 2*y**2, x, y, domain='ZZ'), 최소점 : (0.00, -0.00), 최소값 : 0.00
 ```
+<br>
+
 **📌reference**
 - boostcourse AI tech pre-course
 - https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%9A%B8%EA%B8%B0_(%EB%B2%A1%ED%84%B0)
 
 <br>
+
 ```
 💡 수정 필요한 내용은 댓글이나 메일로 알려주시면 감사하겠습니다!💡 
 ```

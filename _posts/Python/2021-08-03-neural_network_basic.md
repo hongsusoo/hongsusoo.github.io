@@ -135,12 +135,14 @@ print(np.sum(a[2]))
 
 ![image](https://user-images.githubusercontent.com/77658029/128045411-26024f13-a1a9-4607-ab66-52b03074f1ad.png)
 
+<br>
 
 **📌reference**
 - [신경망](https://untitledtblog.tistory.com/141)
 
 
 <br>
+
 ```
 💡 수정 필요한 내용은 댓글이나 메일로 알려주시면 감사하겠습니다!💡 
 ```
