@@ -28,8 +28,6 @@ last_modified_at: 2021-08-04
 
 <a href="https://hongsusoo.github.io/ai/statistics_basic"><img src="https://img.shields.io/badge/-통계학-red"/></a> <a href="https://hongsusoo.github.io/ai/CNN_basic"><img src="https://img.shields.io/badge/-CNN-red"/></a>
 
-
-
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
 
 모더레이터 : 권예환
@@ -80,6 +78,7 @@ The best thing about the future is that it comes one day at a time.
 
 
 <br>
+
 ```
 💡 수정 필요한 내용은 댓글이나 메일로 알려주시면 감사하겠습니다!💡 
 ```

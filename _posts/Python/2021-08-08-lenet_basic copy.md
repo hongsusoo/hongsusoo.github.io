@@ -22,6 +22,7 @@ tags:
 date: 2021-08-05
 last_modified_at: 2021-08-05
 ---
+
 <br>
 
 # RNN(Recurrent Neural Network)
@@ -137,6 +138,11 @@ $$\therefore (\frac{\partial L}{\partial w_H}, \frac{\partial L}{\partial w_X}) 
 - graident를 계속 곱해주기 때문에 0으로 수렴하는 데이터가 존재하게 됨
 - 해결책으로 길이를 끊는 것이 필요함(truncated BPTT)
 - 이런 문제를 해결하기 위해 나온 네트워크에는 LSTM, GRU가 있음
+<br>
+
+**📌reference**
+- boostcourse AI tech pre-course
+- [golden planet](http://www.goldenplanet.co.kr/blog/2021/04/27/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EB%B6%80-%ED%95%9C-%EA%B1%B8%EC%9D%8C-rnn%EC%88%9C%ED%99%98-%EC%8B%A0%EA%B2%BD%EB%A7%9D%EC%9D%B4%EB%9E%80/)
 
 - Convolution 연산은 Kernel이 모든 입력데이터에 공통으로 적용, 역전파를 계산할 때도 Convolution 연산이 나오게 됨
 
@@ -144,11 +150,7 @@ $$\therefore (\frac{\partial L}{\partial w_H}, \frac{\partial L}{\partial w_X}) 
 
 ![image](https://user-images.githubusercontent.com/77658029/128457007-cbcc4dc1-8a43-4698-bdd5-d8ea64689a34.png)
 
-<br>
-
 **📌reference**
-- boostcourse AI tech pre-course
-- [golden planet](http://www.goldenplanet.co.kr/blog/2021/04/27/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EB%B6%80-%ED%95%9C-%EA%B1%B8%EC%9D%8C-rnn%EC%88%9C%ED%99%98-%EC%8B%A0%EA%B2%BD%EB%A7%9D%EC%9D%B4%EB%9E%80/)
 - [TAEWAN.KIM 블로그](http://taewan.kim/post/cnn/)
 - [호롤리한 하루](https://gruuuuu.github.io/machine-learning/cnn-doc/)
 - [뇌 외장 하드](https://wjrmffldrhrl.github.io/digital10/)
