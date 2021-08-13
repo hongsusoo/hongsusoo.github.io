@@ -26,12 +26,13 @@ last_modified_at: 2021-08-10
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/vector"><img src="https://img.shields.io/badge/-vector-red"/></a>
+<a href="https://hongsusoo.github.io/ai/optimization"><img src="https://img.shields.io/badge/-OPTIM-red"/></a>
 
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
 
 모더레이터 : 장동건
+
 참가자 : 강재현, 권예환, 김준태, 박마루찬, 서광채, 장동건, 홍요한
 
 <br>

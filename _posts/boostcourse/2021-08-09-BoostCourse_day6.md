@@ -26,12 +26,14 @@ last_modified_at: 2021-08-09
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/vector"><img src="https://img.shields.io/badge/-vector-red"/></a>
+<a href="https://hongsusoo.github.io/ai/DL_intro"><img src="https://img.shields.io/badge/-DL intro-red"/></a> <a href="https://hongsusoo.github.io/ai/mlpbasic"><img src="https://img.shields.io/badge/-MLP-red"/></a>
+
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
 
 
 모더레이터 : 서광채
+
 참가자 : 강재현, 권예환, 김준태, 박마루찬, 서광채, 장동건, 홍요한
 
 ### 건의사항

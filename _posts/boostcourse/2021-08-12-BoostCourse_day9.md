@@ -26,23 +26,41 @@ last_modified_at: 2021-08-12
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/vector"><img src="https://img.shields.io/badge/-vector-red"/></a>
+<a href="https://hongsusoo.github.io/ai/transformerintro"><img src="https://img.shields.io/badge/-transformer-red"/></a>
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
 
 
 모더레이터 : 강재현
+
 참가자 : 강재현, 권예환, 김준태, 박마루찬, 서광채, 장동건, 홍요한
 
-### 건의사항
-
-
+<br>
 
 ### 과제 리뷰
 
+선택 1,2,3 / 필수 1,2,3 관련 질문
 
+- 선택 2 질문(박마루찬님)
 
-### 질문내용
+    과제코드 맨 아래쪽에 결과 위의 이미지가 입력 노이즈 이미지라고 하는데, 입력의 정체가 잘 이해가 되지 않습니다.
+
+    → 홍요한님, 김준태님 답변
+
+- to_device()의 의미 (홍요한님)
+
+    언제 써줘야 할까요?
+
+    →모델과 데이터를 함께 같은 device에 넣어줘야 함 (권예환님 답변)
+
+- attention에서 Q K의 내적 구현에 대해(강재현님)
+
+    → 실제로 차원 확인해봐야 할 듯 + documentation (박마루찬님 + 홍요한님 답변)
+
+<br>
+
+## 회고록
+
 
 
 

@@ -26,13 +26,18 @@ last_modified_at: 2021-08-11
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/vector"><img src="https://img.shields.io/badge/-vector-red"/></a>
+<a href="https://hongsusoo.github.io/ai/cnnmodel"><img src="https://img.shields.io/badge/-CNN Model-red"/></a>
+
+선택2번 추가 공부
+
+<a href="https://hongsusoo.github.io/ai/AAE"><img src="https://img.shields.io/badge/-AAE-blue"/></a>
 
 <br>
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
 
 모더레이터 : 홍요한
+
 참가자 : 강재현, 권예환, 김준태, 박마루찬, 서광채, 장동건, 홍요한
 
 <br>
