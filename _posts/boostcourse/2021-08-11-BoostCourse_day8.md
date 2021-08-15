@@ -26,7 +26,8 @@ last_modified_at: 2021-08-11
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/cnnmodel"><img src="https://img.shields.io/badge/-CNN Model-red"/></a>
+<a href="https://hongsusoo.github.io/ai/cnnmodel"><img src="https://img.shields.io/badge/-CNN Model-red"/></a> <a href="https://hongsusoo.github.io/ai/CVapplication"><img src="https://img.shields.io/badge/-CV-red"/></a>
+
 
 선택2번 추가 공부
 
@@ -84,7 +85,16 @@ last_modified_at: 2021-08-11
 
 ## 회고록
 
+오늘 AAE에 대해서 조원들에게 공유하는 시간이 있었다. 시간을 투자한 것에 비해서 생각보다 전달이 안됐던 것 같다. 
+요점을 찍어서 알려줘야하는데,, 나 조차도 뭐가 중요한지 어떤걸 궁금해할지 생각할 여유가 없었던 것 같다. 
 
+앞으로 DL 관련 Model를 이해하거나 설명할 때, 
+
+1. 배경 & 흐름을 설명
+2. 이전에 모델 대비 개선점
+3. Loss Function(어떻게 학습하는지)
+
+상기 3가지를 기억해 놔야겠다. 
 
 
 <br>
