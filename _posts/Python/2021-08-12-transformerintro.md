@@ -94,6 +94,7 @@ last_modified_at: 2021-08-12
 
 
 **📌reference**
+- boostcourse AI tech pre-course
 - [Jay Alammar](http://jalammar.github.io/illustrated-transformer/)
 
 

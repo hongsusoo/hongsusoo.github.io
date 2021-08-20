@@ -26,7 +26,7 @@ last_modified_at: 2021-08-12
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/transformerintro"><img src="https://img.shields.io/badge/-transformer-red"/></a>
+<a href="https://hongsusoo.github.io/ai/transformerintro"><img src="https://img.shields.io/badge/-transformer-red"/></a> <a href="https://hongsusoo.github.io/ai/rnnmodel"><img src="https://img.shields.io/badge/-RNN Model-red"/></a>
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
 

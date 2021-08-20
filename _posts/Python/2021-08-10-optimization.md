@@ -240,8 +240,10 @@ last_modified_at: 2021-08-10
 
 ![image](https://user-images.githubusercontent.com/77658029/128810486-273f6424-8115-433b-8b4a-fa9639becbf1.png)
 
+<br>
 
 **📌reference**
+- boostcourse AI tech pre-course
 - [from the bottom](https://hyeonnii.tistory.com/232)
 
 <br>

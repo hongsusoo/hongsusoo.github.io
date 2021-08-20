@@ -20,7 +20,7 @@ categories:
 tags:
   - [python]
 date: 2021-08-01
-last_modified_at: 2021-08-13
+last_modified_at: 2021-08-20
 ---
 <br>
 
@@ -37,7 +37,9 @@ last_modified_at: 2021-08-13
   - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day6"><img src="https://img.shields.io/badge/-Day06-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day7"><img src="https://img.shields.io/badge/-Day07-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day8"><img src="https://img.shields.io/badge/-Day08-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day9"><img src="https://img.shields.io/badge/-Day09-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day10"><img src="https://img.shields.io/badge/-Day10-red"/></a>  
   - 과제 : <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/2%EC%A3%BC%EC%B0%A8/%ED%95%84%EC%88%98"><img src="https://img.shields.io/badge/-필수과제-orange"/></a> <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/2%EC%A3%BC%EC%B0%A8/%EC%84%A0%ED%83%9D"><img src="https://img.shields.io/badge/-선택과제-blue"/></a>
 
-
+### [week03] PyTorch
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day11"><img src="https://img.shields.io/badge/-Day11-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day12"><img src="https://img.shields.io/badge/-Day12-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day13"><img src="https://img.shields.io/badge/-Day13-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day14"><img src="https://img.shields.io/badge/-Day14-red"/></a>  
+  - 과제 : <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/2%EC%A3%BC%EC%B0%A8/%ED%95%84%EC%88%98"><img src="https://img.shields.io/badge/-필수과제-orange"/></a> <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/2%EC%A3%BC%EC%B0%A8/%EC%84%A0%ED%83%9D"><img src="https://img.shields.io/badge/-선택과제-blue"/></a>
 
 <!-- red orange yellow green blue -->
 <!-- https://shields.io/ -->

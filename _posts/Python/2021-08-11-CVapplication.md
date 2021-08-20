@@ -159,6 +159,7 @@ last_modified_at: 2021-08-11
 <br>
 
 **📌reference**
+- boostcourse AI tech pre-course
 - [Zyl Story](https://medium.com/zylapp/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)
 - [Hyunjulie](https://medium.com/hyunjulie/1%ED%8E%B8-semantic-segmentation-%EC%B2%AB%EA%B1%B8%EC%9D%8C-4180367ec9cb)
 - [분석벌레의 공부방](https://analysisbugs.tistory.com/104)
