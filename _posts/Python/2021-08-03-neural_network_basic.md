@@ -138,6 +138,7 @@ print(np.sum(a[2]))
 <br>
 
 **📌reference**
+- boostcourse AI tech
 - [신경망](https://untitledtblog.tistory.com/141)
 
 

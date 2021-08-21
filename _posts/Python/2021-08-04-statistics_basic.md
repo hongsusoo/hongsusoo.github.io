@@ -223,7 +223,7 @@ $\theta = 0.3$
 <br>
 
 **📌reference**
-- boostcourse AI tech pre-course
+- boostcourse AI tech
 - [Taxonomy of univariate distributions](https://priorprobability.com/2016/09/18/taxonomy-of-univariate-distributions/)
 - [공돌이의 수학정리노트](https://angeloyeo.github.io/2020/07/17/MLE.html)
 - [불편추정량](https://1992jhlee.tistory.com/19)

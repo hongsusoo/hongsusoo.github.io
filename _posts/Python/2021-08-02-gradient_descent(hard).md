@@ -250,7 +250,7 @@ plot(errors_gd,errors_sgd)
 
 
 **📌reference**
-- boostcourse AI tech pre-course
+- boostcourse AI tech
 - https://www.kakaobrain.com/blog/113
 
 <br>

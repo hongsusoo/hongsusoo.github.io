@@ -69,7 +69,7 @@ last_modified_at: 2021-08-04
 
 
 **📌reference**
-- boostcourse AI tech pre-course
+- boostcourse AI tech
 - [베이즈 정리](https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%EC%A6%88_%EC%A0%95%EB%A6%AC)
 
 <br>

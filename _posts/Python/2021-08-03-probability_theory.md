@@ -146,7 +146,7 @@ print(mc_int(f_x, low=-1,high=1, sample_size=100000,repeat=100))
 
 
 **📌reference**
-- boostcourse AI tech pre-course
+- boostcourse AI tech
 - [오차의 과학](https://brunch.co.kr/@gimmesilver/17#comment)
 
 <br>

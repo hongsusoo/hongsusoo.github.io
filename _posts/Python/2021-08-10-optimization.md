@@ -243,7 +243,7 @@ last_modified_at: 2021-08-10
 <br>
 
 **📌reference**
-- boostcourse AI tech pre-course
+- boostcourse AI tech
 - [from the bottom](https://hyeonnii.tistory.com/232)
 
 <br>

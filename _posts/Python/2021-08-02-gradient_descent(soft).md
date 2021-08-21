@@ -181,7 +181,7 @@ gradient_descent(func=sym.poly(x**2+2*y**2), x_init=np.array([2,2])) #경사하�
 <br>
 
 **📌reference**
-- boostcourse AI tech pre-course
+- boostcourse AI tech
 - https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%9A%B8%EA%B8%B0_(%EB%B2%A1%ED%84%B0)
 
 <br>
