@@ -36,6 +36,10 @@ last_modified_at: 2021-08-19
 - 현재의 DL에서는 가장 일반적인 학습기법
 - backbone architecture가 잘 학습된 모델에서 일부분만(Freezing) 변경하여 학습을 수행하여 현재 데이터에서도 성능을 끌어올림
 
+![image](https://user-images.githubusercontent.com/77658029/130343239-0122252f-ee37-4b59-832b-00c9bf939f3a.png)
+
+- 새로운 데이터셋으로 새로운 결과를 얻기 위해서 기존 학습데이터는 그대로 두고, 새로운 Layer를 추가/학습하여 원하는 결과를 얻을 수 있음
+
 **📷CV pretrained model**
 
 - [PyTorch image model](https://github.com/rwightman/pytorch-image-models#introduction)
@@ -59,13 +63,13 @@ last_modified_at: 2021-08-19
 
 <br>
 
-## Model 가져오기
+## Model 사용
 
 - `import torchvision.models as models`로 models package를 불러옴
 - `models`에 있는 pretrained model를 찾아 model를 저장해주면됨
 - 새로운 output이 필요하면 목적에 맞게 새로운 layer를 추가해주면됨
 - 마지막으로 freezing으로 원하는 layer을 사용할 데이터셋으로 학습시킴
-- freezing은 모든 layer를 freezing 한 후 학습이 필요한 layer만 열는 방법이 있음
+- freezing은 모든 layer를 freezing 한 후 학습이 필요한 layer만 열어서(`param.requires_grad = True`) 학습시킴
 
 **📰code**
 ```python

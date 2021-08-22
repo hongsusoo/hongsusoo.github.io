@@ -39,7 +39,7 @@ last_modified_at: 2021-08-20
 
 ### [week03] PyTorch
   - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day11"><img src="https://img.shields.io/badge/-Day11-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day12"><img src="https://img.shields.io/badge/-Day12-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day13"><img src="https://img.shields.io/badge/-Day13-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day14"><img src="https://img.shields.io/badge/-Day14-red"/></a>  
-  - 과제 : <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/2%EC%A3%BC%EC%B0%A8/%ED%95%84%EC%88%98"><img src="https://img.shields.io/badge/-필수과제-orange"/></a> <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/2%EC%A3%BC%EC%B0%A8/%EC%84%A0%ED%83%9D"><img src="https://img.shields.io/badge/-선택과제-blue"/></a>
+  - 과제 : <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/3%EC%A3%BC%EC%B0%A8/%ED%95%84%EC%88%98"><img src="https://img.shields.io/badge/-필수과제-orange"/></a> <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/3%EC%A3%BC%EC%B0%A8/%EC%84%A0%ED%83%9D"><img src="https://img.shields.io/badge/-선택과제-blue"/></a>
 
 <!-- red orange yellow green blue -->
 <!-- https://shields.io/ -->
