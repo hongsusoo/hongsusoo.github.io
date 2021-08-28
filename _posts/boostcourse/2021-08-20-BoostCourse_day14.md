@@ -24,6 +24,9 @@ last_modified_at: 2021-08-20
 ---
 <br>
 
+## 학습 내용
+
+
 <a href="https://hongsusoo.github.io/ai/hyperparameter_tuning"><img src="https://img.shields.io/badge/-hyperparameter tuning-red"/></a> <a href="https://hongsusoo.github.io/ai/multi_GPUbasic"><img src="https://img.shields.io/badge/-Multi GPU-red"/></a> 
 
 <br>
