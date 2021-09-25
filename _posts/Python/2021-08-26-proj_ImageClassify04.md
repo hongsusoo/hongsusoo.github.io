@@ -25,7 +25,7 @@ last_modified_at: 2021-08-26
 
 <br>
 
-# Model 구현시 check 사항 정리
+# Model 구현 시 check 사항 정리
 
 <br>
 
@@ -80,6 +80,28 @@ last_modified_at: 2021-08-26
 
 <br>
 
+## model
+
+### Ensemble
+
+- Overfitting 방지 효과
+- Model averaging – hard or soft voting
+- (Strafied) K-fold Cross Validation
+- Test Time Augmentation (TTA)
+- Hyperparameter Optimization
+
+
+<br>
+
+## Code 작성
+
+- 코드작성 시 설명 중요
+- 코드본다면 디테일하게
+- Competition 에서 공유 문화에 적응하기
+- [Paper자료](Paperswithcodes.com)
+
+<br>
+
 **📌reference**
 - boostcourse AI tech
 
@@ -89,3 +111,11 @@ last_modified_at: 2021-08-26
 ```
 💡 수정 필요한 내용은 댓글이나 메일로 알려주시면 감사하겠습니다!💡 
 ```
+
+
+
+|지원여부|Image Format|
+|---|---|
+|읽기/쓰기 모두 지원|BMP, DIB, EPS, GIF, ICNS, ICO, IM, JPEG, JPEG 2000, MSP, PCX, PNG, PPM, SGI, SPIDER, TGA, TIFF, Webp|
+|읽기만 지원|BLP, CUR, DCX, DDS, FLI, FLC, FPX, FTEX, GBR, GD, IMT, IPTC/NAA, MCIDAS, MIC, MPO, MCD, PIXAR, PSD, WAL, WMF, XPM|
+|쓰기만 지원|PALM, PDF, XV Thumbnails|

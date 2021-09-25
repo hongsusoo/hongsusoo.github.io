@@ -45,12 +45,38 @@ last_modified_at: 2021-08-20
 
 <br>
 
-## **P-Stage Level 1(2021.08.23~)**
+## **P-Stage Level 1(2021.08.23 ~ 2021.09.03)**
 
 <br>
   
 ### [week04] Image Classification Competition
    - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day15"><img src="https://img.shields.io/badge/-Day15-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day16"><img src="https://img.shields.io/badge/-Day16-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day17"><img src="https://img.shields.io/badge/-Day17-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day18"><img src="https://img.shields.io/badge/-Day18-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day19"><img src="https://img.shields.io/badge/-Day19-red"/></a>  
+   
+### [week05] Image Classification Competition
+   - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day20"><img src="https://img.shields.io/badge/-Day20-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day21"><img src="https://img.shields.io/badge/-Day21-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day22"><img src="https://img.shields.io/badge/-Day22-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day23"><img src="https://img.shields.io/badge/-Day23-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day24"><img src="https://img.shields.io/badge/-Day24-red"/></a>  
+
+<br>
+
+## **U-Stage Level 2(2021.09.06 ~ 2021.09.17)**
+
+### [week06] CV - Image Augmentation, semantic segmentation
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day25"><img src="https://img.shields.io/badge/-Day25-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day26"><img src="https://img.shields.io/badge/-Day26-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day27"><img src="https://img.shields.io/badge/-Day27-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day28"><img src="https://img.shields.io/badge/-Day28-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day29"><img src="https://img.shields.io/badge/-Day29-red"/></a>  
+
+  - 과제 : <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/assignment_CV"><img src="https://img.shields.io/badge/-필수과제-orange"/></a> <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/assignment_CV"><img src="https://img.shields.io/badge/-선택과제-blue"/></a>
+   
+### [week07] CV - visualization, object detection, gan
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day30"><img src="https://img.shields.io/badge/-Day30-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day31"><img src="https://img.shields.io/badge/-Day31-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day32"><img src="https://img.shields.io/badge/-Day32-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day33"><img src="https://img.shields.io/badge/-Day33-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day34"><img src="https://img.shields.io/badge/-Day34-red"/></a>  
+
+  - 과제 : <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/assignment_CV"><img src="https://img.shields.io/badge/-필수과제-orange"/></a> <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/assignment_CV"><img src="https://img.shields.io/badge/-선택과제-blue"/></a>
+
+### [week08] 특강
+
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day35"><img src="https://img.shields.io/badge/-Day35-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day36"><img src="https://img.shields.io/badge/-Day36-red"/></a>
+  
+
+
+<br>
 
 <!-- red orange yellow green blue -->
 <!-- https://shields.io/ -->
+

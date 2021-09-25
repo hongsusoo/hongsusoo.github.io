@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[boostcourse] Day18 학습기록_minibatch28"
+title: "[boostcourse] Day19 학습기록_minibatch28"
 excerpt: "about : python"
 toc: true
 toc_sticky: true
