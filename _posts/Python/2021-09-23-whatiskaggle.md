@@ -10,17 +10,17 @@ defaults:
       share: true
       related: true
 
-title: "[DL Basic] Image Data Augmentation_(cv2,PIL)"
-excerpt: "about : Image Augmentation"
+title: "Kaggle platform"
+excerpt: "about : data science competition"
 toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
   - AI
 tags:
-  - [CV, image augmentation, cv2, PIL]
-date: 2021-09-07
-last_modified_at: 2021-09-07
+  - [competition]
+date: 2021-09-23
+last_modified_at: 2021-09-23
 ---
 
 <br>
