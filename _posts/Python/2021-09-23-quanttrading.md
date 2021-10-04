@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[DL Basic] Quant Trading"
+title: "Quant Trading"
 excerpt: "about : Quant Trading"
 toc: true
 toc_sticky: true

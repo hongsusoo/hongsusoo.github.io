@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[DL Baic] Tensorboard - Monitoring tool for PyTorch"
+title: "[DL Basic] Tensorboard - Monitoring tool for PyTorch"
 excerpt: "about : python"
 toc: true
 toc_sticky: true

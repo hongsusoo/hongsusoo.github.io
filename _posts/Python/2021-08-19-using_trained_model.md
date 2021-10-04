@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[DL Baic] Pre-trained model 사용하기"
+title: "[DL Basic] Pre-trained model 사용하기"
 excerpt: "about : python"
 toc: true
 toc_sticky: true

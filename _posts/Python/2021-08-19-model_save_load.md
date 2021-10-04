@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[DL Baic] PyTorch Model save & load"
+title: "[DL Basic] PyTorch Model save & load"
 excerpt: "about : python"
 toc: true
 toc_sticky: true

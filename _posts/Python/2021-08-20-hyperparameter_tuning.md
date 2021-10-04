@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[DL Baic] HyperParameter Tuning - Ray"
+title: "[DL Basic] HyperParameter Tuning - Ray"
 excerpt: "about : python"
 toc: true
 toc_sticky: true

@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[DL Baic] Multi GPU"
+title: "[DL Basic] Multi GPU"
 excerpt: "about : python"
 toc: true
 toc_sticky: true
