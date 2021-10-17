@@ -69,11 +69,31 @@ last_modified_at: 2021-08-20
 
   - 과제 : <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/assignment_CV"><img src="https://img.shields.io/badge/-필수과제-orange"/></a> <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/assignment_CV"><img src="https://img.shields.io/badge/-선택과제-blue"/></a>
 
+
+<br>
+
+## **특강(2021.09.23 ~ 2021.09.24)**
+
 ### [week08] 특강
 
   - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day35"><img src="https://img.shields.io/badge/-Day35-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day36"><img src="https://img.shields.io/badge/-Day36-red"/></a>
   
 
+<br>
+
+## **P-Stage Level 2(2021.09.24 ~ 2021.10.14)**
+
+### [week09] Object detection, mmdetection, detectron
+
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day37"><img src="https://img.shields.io/badge/-Day37-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day38"><img src="https://img.shields.io/badge/-Day38-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day39"><img src="https://img.shields.io/badge/-Day39-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day40"><img src="https://img.shields.io/badge/-Day40-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day41"><img src="https://img.shields.io/badge/-Day41-red"/></a>
+
+### [week10] Object detection
+
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day42"><img src="https://img.shields.io/badge/-Day42-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day43"><img src="https://img.shields.io/badge/-Day43-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day44"><img src="https://img.shields.io/badge/-Day44-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day45"><img src="https://img.shields.io/badge/-Day45-red"/></a>
+
+### [week10] Object detection
+
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day46"><img src="https://img.shields.io/badge/-Day46-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day47"><img src="https://img.shields.io/badge/-Day47-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day48"><img src="https://img.shields.io/badge/-Day48-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day49"><img src="https://img.shields.io/badge/-Day49-red"/></a>
 
 <br>
 
