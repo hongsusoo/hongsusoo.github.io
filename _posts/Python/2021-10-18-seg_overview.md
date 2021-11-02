@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[Segmentation] WSSS 소개 "
+title: "[Segmentation Task] Overview"
 excerpt: "about : object detection"
 toc: true
 toc_sticky: true
@@ -18,143 +18,60 @@ toc_label: "Label"
 categories:
   - AI
 tags:
-  - [CV, AI Model, Segmentation, WSSS]
-date: 2021-10-27
-last_modified_at: 2021-10-27
+  - [CV, AI Model, Segmentation]
+date: 2021-10-18
+last_modified_at: 2021-10-18
 ---
 
 <br>
 
-# WSSS
+# COCO Format_Segmentation Task
 
-- Weakly Supervised Semantic Segmentation
-- segmentation를 수행할때 Pixel label이 없을경우, image label나 box label등의 약한 Label로 segmentation을 수행하는 Task
-- 필요성 : pixel level의 annotation을 진행할때 걸리는 시간이 일반 image level의 classification의 78배가 걸림
+- Json file 형태로 제공됨
+- 학습 및 추론에 필요한 Json file로 이뤄짐
 
-![image](https://user-images.githubusercontent.com/77658029/139003947-57c1bdfe-9757-4549-b9e4-01703376c5d2.png)
+## Json File 구성
 
-- Weak Supervision : Test시에 요구하는 Output(pixel-level labels)보다 간단한 annotation(image, point level labels)을 이용하여 학습
+- info
+![image](https://user-images.githubusercontent.com/77658029/137656294-770f8e53-5d6b-4699-b343-eb7fefc66d0b.png)
 
-![image](https://user-images.githubusercontent.com/77658029/139004661-59c91f08-244e-4d98-b51c-820b2a2f3b6b.png)
+- licenses
+![image](https://user-images.githubusercontent.com/77658029/137656312-bad8aab7-ca01-407d-80db-a3445e85e5c6.png)
 
+- images : image 목록 및 각각의 width,heigh,file_name,id(image_id)
+![image](https://user-images.githubusercontent.com/77658029/137656327-2b5b6b23-6de9-42e6-a1f3-c5db36e078f2.png)
 
-## Naive approach
+- categories : class에 해당하는 id, name 및 supercategory
+![image](https://user-images.githubusercontent.com/77658029/137656491-a56a0dcb-5151-4279-bdef-5312afcde35f.png)
 
-1. 주어진 Image data를 활용하여 해당 Data의 label level 단위에서 학습진행(Classification, detection ..)
+- annotations :  class에 해당되는 pixel의 x, y 좌표로 구성, polygon형태로 되어 있어 순서가 중요함(좌표들을 순서대로 이으면 Object의 둘레를 그리게됨)
 
-2. 학습한 모델에서 CAM, Grad-CAM, Attention을 추출
-
-3. 추출한 결과물에서 image의 pseudo mask를 뽑아내어 모델 학습에 이용
-
-![image](https://user-images.githubusercontent.com/77658029/139004789-bb0f0b70-51a8-4a1f-9fa3-80c6d0cc763b.png)
-
-**🚨 pseudo mask의 결과가 좋지 않음**
-
-## CAM 기반의 접근
-
-### CAM & Grad-CAM
-
-- CAM : Class Activation Mapping
-- Classification 모델을 학습하면서 모델이 Class의 물체가 어떤 영역을 바라보고 있는지 확인할 수 있음
-
-![image](https://user-images.githubusercontent.com/77658029/139005652-d48e45a5-d6bf-496f-9684-c8e3deaa469f.png)
-
-- CAM 원리
-    - object의 특징을 표현하는 Feature map이 존재함
-    - Scoring시 이런 Feature map 중 object를 구분하는데 필요한 특징들을 모아 weight를 다르게 부여하여 Object 분류
-    
-![image](https://user-images.githubusercontent.com/77658029/139009383-87a6036c-5b88-41be-bc98-9862648aa4b5.png)
-
-- CAM의 문제점
-    - 마지막 Layer는 GAP(혹은 Flatten)작업이 필요하여, 일반적인 적용이 불가능
-    - 마지막 Layer에서만 CAM을 뽑아낼 수 있고, 이전 Layer에서는 어떻게 활성화가 되는지 확인할 수 없음
+![image](https://user-images.githubusercontent.com/77658029/137656399-c4d29fe0-336f-4661-9487-15b0f9db6d63.png)
 
 
-- Grad CAM
-    - CAM의 문제점을 극복하기 위한 시도
-    - CAM에서 feature map의 GAP의 weight가 아닌, faeture의 변화에 따른 Class Score의 변화
-    - 특정 feature map에 변화가 있을때 Class에 score가 크게 변화하면 중요도가 높은 feature map, class score가 작게 변화하면 중요도가 낮은 feature map
-    - score 변화량 / feature map 변화량 = 기울기 = 미분값으로 중요도 정해짐
-    - GAP가 아닌 feature map 모든 위치의 미분값 평균으로 weight를 구함
+## DataLoader
 
-![image](https://user-images.githubusercontent.com/77658029/139009492-bedaadbc-f6f7-469e-b97c-2019fea8600e.png)
-
-![image](https://user-images.githubusercontent.com/77658029/139010427-63876892-995c-44ae-a00e-bb06dd34c153.png)
-
-- CAM & Grad CAM의 문제점
-    - 결과가 Sharp 하지 않고, 뭉게지거나, 둥글둥글한 모양임
-    - 입력 Image의 크기와 Feature map의 크기의 차이로 인한 문제
-    - 크기를 맞춰주기 위해 upsampling을 진행하며 관련 문제가 발생함
-   
-
-### CAM을 Sharp하게 만들기 위한 접근
-
-- 입력 이미지와 Feature map의 크기 차이로 인해서 upsampling 과정으로 동글동글한 형태로 출력되게됨
-
-![image](https://user-images.githubusercontent.com/77658029/139012919-b89daf83-aa45-4911-bf07-b6b648378797.png)
-
-#### 1. 물체 형태 제공
-
-- 예측한 Segmentation 영역에 CRF를 적용한 값과 segmentation의 차이 값을 boundary loss로 활용하여 학습(model output과 CRF output 값이 같아지도록 KL Divergence loss를 사용)
-
-![image](https://user-images.githubusercontent.com/77658029/139014393-f350fdec-e0eb-40a1-846d-447f9e02f77e.png)
-
-#### 2. Transfer Learning
-
-- MSRA10K saliency object dataset로 학습한 Network를 이용
-- 뽑아낸 CAM의 결과와 Saliency 예측한 결과를 적절하게 합쳐서 sharp한 결과를 얻는 방법
-- Saliency 뜻은 특징, 돌출의 뜻을 가지고 있는데, Computer Vision에서는 image를 봤을때 처음 보이는 object를 의미함, 그 이미지의 중심이 되는 object와 배경 두 가지로 구분하는 방식을 Saliency라고 함
-
-![image](https://user-images.githubusercontent.com/77658029/139016205-ef5c8137-7f8a-4b24-bbae-b32913987102.png)
-
-#### 3. Self -Supervised Learning
-
-- 입력된 이미지의 크기에 따라 CAM이 다른 부분을 관측함
-- 입력된 이미지의 크기와 상관없이 같은 CAM 모양을 갖도록 학습
-
-![image](https://user-images.githubusercontent.com/77658029/139035534-9dc340b7-f776-4218-8472-62685e3ae721.png)
-
-### CAM 영역 확장
-
-- CAM은 특징적인 영역에만 집중하는 경향이 있어 영역이 좁아지는 문제가 있음
-- Classification등 다른 Task를 통해 Segmentation을 간접적으로 학습하다보면, 물체를 정확하게 구분해야할 이유가 적음
-- 확실하게 Class를 알 수 있는 특징에 의존하게됨
-
-#### 1. 특징적인 영역 Erase
-
-- object의 여러곳을 볼수 있도록 특징적인 영역을 지워가며 지속 학습
-1. 입력 이미지 CAM 추출
-2. CAM의 결과 영역 제거 
-3. 독립인 새로운 네트워크로 재학습하여 CAM 추출
-4. 위 과정 반복하여 학습 진행
-
-![image](https://user-images.githubusercontent.com/77658029/139037987-6d8c1fa8-0f32-4d67-9c78-7a95dc01f47d.png)
-
-- 단점
-    - 여러 Network가 필요함
-    - Over-Erasing : 과도하게 진행되면 물체가 아닌 영역까지 Mask가 생기는 현상이 있음
-![image](https://user-images.githubusercontent.com/77658029/139038912-d0c36cdd-c750-444d-b3cf-f4e5af8c8335.png)
+- Shape of Image : Batch,3,H,W 
+- Shape of Target : Batch, H,W -> pixel의 annotation 정보가 담겨 있기 때문에 Channel은 따로 필요없음
 
 
-#### 2. Patch Cutout
+## 평가 Metric
 
-- 이미지의 Random 영역을 patch를 지워 최대한 다양한 영역에서 특징을 뽑을 수 밖에 없도록함
+- mean IoU
 
-![image](https://user-images.githubusercontent.com/77658029/139047072-0aa0e6b9-e925-4b3f-ac79-66f0753f8571.png)
+![image](https://user-images.githubusercontent.com/77658029/137659589-c51cfa11-edc1-4e05-b75d-2a1beb22e87b.png)
 
+## Data Overview
 
-#### 3. 1번을 하나의 Network로 수행
+- 10가지 Class에 대한 Segmentation 진행
 
-![image](https://user-images.githubusercontent.com/77658029/139048154-1d3aa667-ffba-43b5-94dd-4a07aa764cda.png)
+![image](https://user-images.githubusercontent.com/77658029/139697022-f982371e-4162-40ac-bd15-847e1ab262a5.png)
 
+### EDA
 
-#### 4. 다양한 Receptive Field 사용
+- 몇까지 구분하기 어려운 대상들이 존재함
 
-![image](https://user-images.githubusercontent.com/77658029/139048307-011fef08-a6ca-4d55-a12d-5c6a86d724db.png)
-
-#### 5. Mixup
-
-![image](https://user-images.githubusercontent.com/77658029/139048454-7bedd446-1e70-4b8e-9bc5-146851e9f79d.png)
+![image](https://user-images.githubusercontent.com/77658029/139698599-81154ce2-15ae-4f0e-9477-8c8261d19ad4.png)
 
 
 <br><br>
