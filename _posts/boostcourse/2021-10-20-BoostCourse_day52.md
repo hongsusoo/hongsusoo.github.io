@@ -37,7 +37,7 @@ last_modified_at: 2021-10-20
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
 
-모더레이터 : 홍요한
+모더레이터 : 황원상
 
 참가자 : 박범수, 박준혁, 서희수, 한건우, 홍요한, 황원상, 조혜원
 
@@ -45,25 +45,20 @@ last_modified_at: 2021-10-20
 
 ### 대회 진행
 
-- 희수님 3강 Segmentation 설명 
-- 범수님 : Augmentations- Rotate, ResizeCrop, GridDropout Test 진행
-- 준혁님 : TIMM에 있는 encoder 있는 모델에서 parameter 많은 모델로 돌려보자
-- 희수님 : efficientnet-b7_Unet++ 12시 이후 제출 예정
-- 원상님 : Pan Resnet101 0.407 , BEiT(Transformer) 모델 환경설정 진행 중
-- backbone - efficientnet B7 좋을 듯
-- resnet에 150도 있더라
-- SMP에 있는 모델들은 전반적으로 다 돌려봤는데,  추후 어떤 모델을 돌려볼지
-    
-    Batch는 돌릴수 있을만큼 설정
-    
-    1. Deeplab 으로 양산하는 방향..?
-    2. deeplabv3+ timm-efficientnet-b8 - 원상님
-    3. SE-Net  se_resnext101 32x4d - 혜원님
-    4. deeplabv3+ DPN131 - 준혁님
-    5. resnet152_deeplabv3+ - 희수님
-    6. timm-regnety_320 - 건우님
-    7. timm-efficientnet-l2(noisy student) - 건우님
-    8. timm-gernet_l_DeepLabV3+ - 준혁님
+- 범수님 4강 전반 (FCN 문제점, DeconvNet, Transposed Convolution, SegNet) 리뷰
+- 요한님 4강 후반(FC DenseNet, DeepLabV1, DilatedNet) 리뷰
+
+- 내일 5강 발표자
+    - 건우님 5강 전반 (처음부터 DeepLabV3 까지)
+    - 혜원님 5강 후반 (DeepLabV3+ 부터  끝까지)
+- 범수님 augmentation
+    - CLAHE가 uint8이 아니면 안되는 문제
+    - Elastice transform 적용해볼 예정
+- 희수님 augmentation 제안 - blur, gaussianBlur, fog - 숟가락이 여러 part가 분리되어 분류된 결과를 보며..
+- 준혁님 CRF, mmsegmetation의 HRNet 시도 예정
+- 요한님 train/val 나눠서 해봤는데.. 점수가 낮게 나와서 수정을 좀 해보려고 함. 모델이 안좋은 듯
+- 희수님 Unet++에 다른 backbone(혜원님 점수 높았던 것)으로 돌려볼 예정
+- 원상님 DeeplabV3+ + effnetb8  학습 중, BEiT 돌리기 위해 mmsegmentation 에서 돌아가는 Dataset 클래스 구현 예정 → 준혁님 토론게시판에 누가 구현해서 올려놓았음
 
 ```
 💡 수정 필요한 내용은 댓글이나 메일로 알려주시면 감사하겠습니다!💡 
