@@ -91,9 +91,21 @@ last_modified_at: 2021-08-20
 
   - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day42"><img src="https://img.shields.io/badge/-Day42-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day43"><img src="https://img.shields.io/badge/-Day43-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day44"><img src="https://img.shields.io/badge/-Day44-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day45"><img src="https://img.shields.io/badge/-Day45-red"/></a>
 
-### [week10] Object detection
+### [week11] Object detection
 
   - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day46"><img src="https://img.shields.io/badge/-Day46-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day47"><img src="https://img.shields.io/badge/-Day47-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day48"><img src="https://img.shields.io/badge/-Day48-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day49"><img src="https://img.shields.io/badge/-Day49-red"/></a>
+
+### [week12] Semantic Segmetation
+
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day50"><img src="https://img.shields.io/badge/-Day50-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day51"><img src="https://img.shields.io/badge/-Day51-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day52"><img src="https://img.shields.io/badge/-Day52-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day53"><img src="https://img.shields.io/badge/-Day53-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day54"><img src="https://img.shields.io/badge/-Day54-red"/></a>
+
+### [week13] Semantic Segmetation
+
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day55"><img src="https://img.shields.io/badge/-Day55-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day56"><img src="https://img.shields.io/badge/-Day56-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day57"><img src="https://img.shields.io/badge/-Day57-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day58"><img src="https://img.shields.io/badge/-Day58-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day59"><img src="https://img.shields.io/badge/-Day59-red"/></a>
+
+### [week14] Semantic Segmetation
+
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day60"><img src="https://img.shields.io/badge/-Day60-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day61"><img src="https://img.shields.io/badge/-Day61-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day62"><img src="https://img.shields.io/badge/-Day62-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day63"><img src="https://img.shields.io/badge/-Day63-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day64"><img src="https://img.shields.io/badge/-Day64-red"/></a>
 
 <br>
 
