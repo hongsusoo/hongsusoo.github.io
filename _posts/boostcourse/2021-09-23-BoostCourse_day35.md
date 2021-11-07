@@ -25,7 +25,7 @@ last_modified_at: 2021-09-23
 
 ## 학습 내용
 
-- 특강 : <a href="https://hongsusoo.github.io/ai/copyright"><img src="https://img.shields.io/badge/-저작권-red"/></a> <a href="https://hongsusoo.github.io/ai/quanttrading"><img src="https://img.shields.io/badge/-quant trading-red"/></a> <a href="https://hongsusoo.github.io/ai/whatiskaggle"><img src="https://img.shields.io/badge/-Kaggle-red"/></a>
+- 특강 : <a href="https://hongsusoo.github.io/ai_etc/etc_copyright"><img src="https://img.shields.io/badge/-저작권-red"/></a> <a href="https://hongsusoo.github.io/ai_etc/etc_quanttrading"><img src="https://img.shields.io/badge/-quant trading-red"/></a> <a href="https://hongsusoo.github.io/ai_etc/etc_whatiskaggle"><img src="https://img.shields.io/badge/-Kaggle-red"/></a>
 
 <br>
 

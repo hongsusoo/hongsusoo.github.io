@@ -26,7 +26,7 @@ last_modified_at: 2021-10-21
 ## 학습 내용
 
 - K-Fold 구현 및 Data 확인
-- FCN의 한계를 극복하기 위한 모델(<a href="https://hongsusoo.github.io/ai/beyondfcn01"><img src="https://img.shields.io/badge/-FCN 극복-red"/></a>)
+- FCN의 한계를 극복하기 위한 모델(<a href="https://hongsusoo.github.io/ai_models/md_beyondfcn01"><img src="https://img.shields.io/badge/-FCN 극복-red"/></a>)
 
 <br>
 

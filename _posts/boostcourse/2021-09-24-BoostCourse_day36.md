@@ -25,7 +25,7 @@ last_modified_at: 2021-09-24
 
 ## 학습 내용
 
-- 특강 : <a href="https://hongsusoo.github.io/ai/AI_ethics"><img src="https://img.shields.io/badge/-AI ethics-red"/></a>
+- 특강 : <a href="https://hongsusoo.github.io/ai_etc/etc_AI_ethics"><img src="https://img.shields.io/badge/-AI ethics-red"/></a>
 
 <br>
 

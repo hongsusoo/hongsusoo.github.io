@@ -25,7 +25,7 @@ last_modified_at: 2021-09-30
 
 ## 학습 내용
 
-- <a href="https://hongsusoo.github.io/ai/neck"><img src="https://img.shields.io/badge/-neck-red"/></a>
+- <a href="https://hongsusoo.github.io/ai_dlbasic/dl_neck"><img src="https://img.shields.io/badge/-neck-red"/></a>
 
 <br>
 

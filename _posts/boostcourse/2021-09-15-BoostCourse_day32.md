@@ -25,7 +25,7 @@ last_modified_at: 2021-09-15
 
 ## 학습 내용
 
-- <a href="https://hongsusoo.github.io/ai/conditionalgenerativemodel"><img src="https://img.shields.io/badge/-Conditional GAN-red"/></a>
+- <a href="https://hongsusoo.github.io/ai_models/md_conditionalgenerativemodel"><img src="https://img.shields.io/badge/-Conditional GAN-red"/></a>
 - [필수 과제 4] Conditional GAN
 
 <br>

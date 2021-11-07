@@ -25,7 +25,7 @@ last_modified_at: 2021-09-08
 
 ## 학습 내용
 
-- <a href="https://hongsusoo.github.io/ai/image_augmentation"><img src="https://img.shields.io/badge/-image augmentation-red"/></a>
+- <a href="https://hongsusoo.github.io/ai_dlbasic/dl_image_augmentation"><img src="https://img.shields.io/badge/-image augmentation-red"/></a>
 
 <br>
 

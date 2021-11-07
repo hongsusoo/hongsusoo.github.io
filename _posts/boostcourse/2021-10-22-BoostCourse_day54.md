@@ -26,7 +26,7 @@ last_modified_at: 2021-10-22
 ## 학습 내용
 
 - K-Fold 구현 및 제출하기 위한 code 수정작업
-- Unet(<a href="https://hongsusoo.github.io/ai/unet"><img src="https://img.shields.io/badge/-Unet-red"/></a>)
+- Unet(<a href="https://hongsusoo.github.io/ai_models/md_unet"><img src="https://img.shields.io/badge/-Unet-red"/></a>)
 
 <br>
 

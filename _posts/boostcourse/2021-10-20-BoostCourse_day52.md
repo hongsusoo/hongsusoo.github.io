@@ -26,7 +26,7 @@ last_modified_at: 2021-10-20
 ## 학습 내용
 
 - Validation set 구하기
-- semantic segmentation의 기초와 이해(<a href="https://hongsusoo.github.io/ai/seg_fcn"><img src="https://img.shields.io/badge/-FCN-red"/></a>) 강의
+- semantic segmentation의 기초와 이해(<a href="https://hongsusoo.github.io/ai_models/md_seg_fcn"><img src="https://img.shields.io/badge/-FCN-red"/></a>) 강의
 - EDA 진행 
   - Class imbalance 가 큼
 ![image](https://user-images.githubusercontent.com/77658029/139706482-87ad383c-86a7-46ac-b375-404b98d7e1de.png)

@@ -7,5 +7,5 @@ sidebar_main: true
 ---
 
 
-{% assign posts = site.categories['ct_python'] %}
+{% assign posts = site.categories['Coding Test Python'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
