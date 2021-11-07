@@ -26,7 +26,7 @@ last_modified_at: 2021-08-13
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/generative"><img src="https://img.shields.io/badge/-generative-red"/></a>
+- Generative model
 
 <br>
 

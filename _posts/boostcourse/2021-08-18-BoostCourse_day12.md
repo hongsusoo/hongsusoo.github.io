@@ -27,8 +27,8 @@ last_modified_at: 2021-08-18
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/autograd_optim"><img src="https://img.shields.io/badge/-Auto Grad & Optimizer-red"/></a> 
-<a href="https://hongsusoo.github.io/ai/dataset_n_dataloader"><img src="https://img.shields.io/badge/-dataset & dataloader-red"/></a> 
+<a href="https://hongsusoo.github.io/ai_dlbasic/dl_pytorch_autograd_optim"><img src="https://img.shields.io/badge/-Auto Grad & Optimizer-red"/></a> 
+<a href="https://hongsusoo.github.io/ai_dlbasic/dl_pytorch_dataloader"><img src="https://img.shields.io/badge/-dataset & dataloader-red"/></a> 
 
 <br>
 

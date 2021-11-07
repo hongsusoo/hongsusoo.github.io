@@ -26,7 +26,7 @@ last_modified_at: 2021-08-09
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/DL_intro"><img src="https://img.shields.io/badge/-DL intro-red"/></a> <a href="https://hongsusoo.github.io/ai/mlpbasic"><img src="https://img.shields.io/badge/-MLP-red"/></a>
+<a href="https://hongsusoo.github.io/ai_dlbasic/dl_DL_intro"><img src="https://img.shields.io/badge/-DL intro-red"/></a> <a href="https://hongsusoo.github.io/ai_dlbasic/dl_mlpbasic"><img src="https://img.shields.io/badge/-MLP-red"/></a>
 
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦

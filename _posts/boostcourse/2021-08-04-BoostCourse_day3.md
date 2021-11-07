@@ -26,7 +26,7 @@ last_modified_at: 2021-08-04
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/statistics_basic"><img src="https://img.shields.io/badge/-통계학-red"/></a> <a href="https://hongsusoo.github.io/ai/CNN_basic"><img src="https://img.shields.io/badge/-CNN-red"/></a>
+<a href="https://hongsusoo.github.io/ai_math/math_statistics_basic"><img src="https://img.shields.io/badge/-통계학-red"/></a> <a href="https://hongsusoo.github.io/ai_dlbasic/CNN_basic"><img src="https://img.shields.io/badge/-CNN-red"/></a>
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
 

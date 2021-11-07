@@ -14,67 +14,95 @@
         <span class="nav__sub-title">python</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "AI" %}
-                        <li><a href="/categories/AI" class="">AI({{category[1].size}})</a></li>
+                    {% if category[0] == "py_basic" %}
+                        <li><a href="/categories/py_basic" class="">Basic({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "AI_project" %}
-                        <li><a href="/categories/AI_project" class="">AI project({{category[1].size}})</a></li>
+                    {% if category[0] == "py_numpy" %}
+                        <li><a href="/categories/py_numpy" class="">Numpy({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "algorithm" %}
-                        <li><a href="/categories/algorithm" class="">Algorithm({{category[1].size}})</a></li>
+                    {% if category[0] == "py_pandas" %}
+                        <li><a href="/categories/py_pandas" class="">Pandas({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "py_grammar" %}
-                        <li><a href="/categories/py_grammar" class="">Grammar({{category[1].size}})</a></li>
+                    {% if category[0] == "py_visual" %}
+                        <li><a href="/categories/py_visual" class="">시각화({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">AI</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ai_math" %}
+                        <li><a href="/categories/ai_math" class="">Math({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "py_proj1" %}
-                        <li><a href="/categories/py_proj1" class="">project angleprice({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">MySQL</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "mysql_basic" %}
-                        <li><a href="/categories/mysql_basic" class="">MySQL 시작({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">HTML</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "HTML_basic" %}
-                        <li><a href="/categories/HTML_basic" class="">HTML 시작({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">났</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "iwas" %}
-                        <li><a href="/categories/iwas" class="">정리({{category[1].size}})</a></li>
+                    {% if category[0] == "ai_dlbasic" %}
+                        <li><a href="/categories/ai_dlbasic" class="">DL Basic({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "read_book" %}
-                        <li><a href="/categories/read_book" class="">독서기록({{category[1].size}})</a></li>
+                    {% if category[0] == "ai_visual" %}
+                        <li><a href="/categories/ai_visual" class="">시각화({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ai_models" %}
+                        <li><a href="/categories/ai_models" class="">Models({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ai_pr" %}
+                        <li><a href="/categories/ai_pr" class="">Paper Review({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ai_library" %}
+                        <li><a href="/categories/ai_library" class="">Library({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ai_etc" %}
+                        <li><a href="/categories/ai_etc" class="">ETC({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Project</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "project1" %}
+                        <li><a href="/categories/project1" class="">Mask Classification({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Coding Test</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ct_python" %}
+                        <li><a href="/categories/ct_python" class="">Python({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

@@ -26,9 +26,9 @@ last_modified_at: 2021-08-17
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/pytorch_intro"><img src="https://img.shields.io/badge/-pytorch 소개-red"/></a> 
-<a href="https://hongsusoo.github.io/ai/pytorch_basicgram"><img src="https://img.shields.io/badge/-pytorch 기초 문법-red"/></a> 
-<a href="https://hongsusoo.github.io/ai/projectstructure"><img src="https://img.shields.io/badge/-project structure-red"/></a> 
+<a href="https://hongsusoo.github.io/ai_dlbasic/dl_pytorch_intro"><img src="https://img.shields.io/badge/-pytorch 소개-red"/></a> 
+<a href="https://hongsusoo.github.io/ai_dlbasic/dl_pytorch_basicgram"><img src="https://img.shields.io/badge/-pytorch 기초 문법-red"/></a> 
+<a href="https://hongsusoo.github.io/ai_etc/etc_projectstructure"><img src="https://img.shields.io/badge/-project structure-red"/></a> 
 
 <br>
 

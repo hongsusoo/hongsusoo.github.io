@@ -26,7 +26,7 @@ last_modified_at: 2021-08-03
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/neural_network_basic"><img src="https://img.shields.io/badge/-NN basic-red"/></a> <a href="https://hongsusoo.github.io/ai/probability_theory"><img src="https://img.shields.io/badge/-확률론-red"/></a>
+<a href="https://hongsusoo.github.io/ai_dlbasic/dl_neural_network_basic"><img src="https://img.shields.io/badge/-NN basic-red"/></a> <a href="https://hongsusoo.github.io/ai_math/math_probability_theory"><img src="https://img.shields.io/badge/-확률론-red"/></a>
 
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦

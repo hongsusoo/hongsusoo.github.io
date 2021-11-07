@@ -26,7 +26,7 @@ last_modified_at: 2021-08-05
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/RNN_basic"><img src="https://img.shields.io/badge/-Day01-red"/></a>
+<a href="https://hongsusoo.github.io/ai_dlbasic/dl_RNN_basic"><img src="https://img.shields.io/badge/-RNN-red"/></a>
 
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦

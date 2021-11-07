@@ -26,7 +26,7 @@ last_modified_at: 2021-08-11
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai/cnnmodel"><img src="https://img.shields.io/badge/-CNN Model-red"/></a> <a href="https://hongsusoo.github.io/ai/CVapplication"><img src="https://img.shields.io/badge/-CV-red"/></a>
+<a href="https://hongsusoo.github.io/ai_models/md_cnnmodels"><img src="https://img.shields.io/badge/-CNN Model-red"/></a> <a href="https://hongsusoo.github.io/ai_models/md_CVmodels"><img src="https://img.shields.io/badge/-CV-red"/></a>
 
 
 선택2번 추가 공부

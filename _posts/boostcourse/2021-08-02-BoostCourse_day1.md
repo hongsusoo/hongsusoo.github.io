@@ -26,7 +26,7 @@ last_modified_at: 2021-08-02
 
 ## 학습 내용
 
- <a href="https://hongsusoo.github.io/ai/vector"><img src="https://img.shields.io/badge/-vector-red"/></a> <a href="https://hongsusoo.github.io/ai/matrix"><img src="https://img.shields.io/badge/-matrix-red"/></a> <a href="https://hongsusoo.github.io/ai/gradient_descent(soft)"><img src="https://img.shields.io/badge/-경사하강법1-red"/></a> <a href="https://hongsusoo.github.io/ai/gradient_descent(hard)"><img src="https://img.shields.io/badge/-경사하강법2-red"/></a> 
+ <a href="https://hongsusoo.github.io/ai_math/math_vector"><img src="https://img.shields.io/badge/-vector-red"/></a> <a href="https://hongsusoo.github.io/ai_math/math_matrix"><img src="https://img.shields.io/badge/-matrix-red"/></a> <a href="https://hongsusoo.github.io/ai_dlbasic/dl_gradient_descent(soft)"><img src="https://img.shields.io/badge/-경사하강법1-red"/></a> <a href="https://hongsusoo.github.io/ai_dlbasic/dl_gradient_descent(hard)"><img src="https://img.shields.io/badge/-경사하강법2-red"/></a> 
 
 
 ## 피어세션
