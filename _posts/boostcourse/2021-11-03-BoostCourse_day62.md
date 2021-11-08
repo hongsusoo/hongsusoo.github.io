@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[boostcourse] Day59 학습기록_팀명뭘로하조"
+title: "[boostcourse] Day62 학습기록_팀명뭘로하조"
 excerpt: "about : python"
 toc: true
 toc_sticky: true
@@ -19,15 +19,12 @@ categories:
   - daily
 tags:
   - []
-date: 2021-10-29
-last_modified_at: 2021-10-29
+date: 2021-11-03
+last_modified_at: 2021-11-03
 ---
 
 ## 학습 내용
 
-- Dense CRF 진행 : 원본 이미지를 augmentation진행할 경우, object의 경계를 좀 더 명확하게 해주는 경우가 있는데, 대체적으로 비슷한 수준으로 보여짐
-
-![image](https://user-images.githubusercontent.com/77658029/139919904-21a920fd-ed69-4908-bf2a-e22c4c6286f1.png)
 
 <br>
 
