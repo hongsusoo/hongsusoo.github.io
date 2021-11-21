@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - ai_etc
+  - AI ETC
 tags:
   - [annotation]
 date: 2021-11-08

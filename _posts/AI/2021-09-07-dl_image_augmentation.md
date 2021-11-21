@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - ai_dlbasic
+  - DL Basic
 tags:
   - [augmentation]
 date: 2021-09-07

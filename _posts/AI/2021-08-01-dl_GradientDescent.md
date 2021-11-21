@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - ai_dlbasic
+  - DL Basic
 tags:
   - [gradient descent]
 date: 2021-08-01

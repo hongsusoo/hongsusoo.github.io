@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - ai_etc
+  - AI ETC
 tags:
   - [저작권]
 date: 2021-09-23

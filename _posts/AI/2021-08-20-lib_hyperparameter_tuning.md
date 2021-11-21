@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - ai_library
+  - AI visualization
 tags:
   - [PyTorch, hyperparameter, Multi GPU]
 date: 2021-08-20

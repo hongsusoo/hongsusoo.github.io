@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - ai_etc
+  - AI ETC
 tags:
   - [AI Ethics]
 date: 2021-09-24

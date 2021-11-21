@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - ai_etc
+  - AI ETC
 tags:
   - [project template]
 date: 2021-08-17

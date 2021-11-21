@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - ai_dlbasic
+  - DL Basic
 tags:
   - [Neural Network]
 date: 2021-08-03

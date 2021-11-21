@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - ai_models
+  - AI Model
 tags:
   - [CV model]
 date: 2021-08-11

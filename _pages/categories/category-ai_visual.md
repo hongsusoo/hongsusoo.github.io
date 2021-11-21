@@ -7,5 +7,5 @@ sidebar_main: true
 ---
 
 
-{% assign posts = site.categories['ai Visualization'] %}
+{% assign posts = site.categories['AI visualization'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
