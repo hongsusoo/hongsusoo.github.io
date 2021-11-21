@@ -14,7 +14,7 @@
         <span class="nav__sub-title">python</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "py_basic" %}
+                    {% if category[0] == "Python Basic" %}
                         <li><a href="/categories/py_basic" class="">Basic({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
