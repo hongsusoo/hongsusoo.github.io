@@ -10,34 +10,30 @@ defaults:
       share: true
       related: true
 
-title: "templete"
+title: "[boostcourse] Day70 학습기록_팀명뭘로하조"
 excerpt: "about : python"
 toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - 
+  - daily
 tags:
-  - 
-date: 2021-07-08
-last_modified_at: 2021-07-08
+  - []
+date: 2021-11-15
+last_modified_at: 2021-11-15
 ---
-<br>
 
+## 학습 내용
 
-
-<br>
-
-**📰code**
-
-**🔍result**
 
 <br>
 
-**📌reference**
-- [파이썬 코딩 도장](https://dojang.io/course/view.php?id=7)
+## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
+
 
 <br>
+
+
 ```
 💡 수정 필요한 내용은 댓글이나 메일로 알려주시면 감사하겠습니다!💡 
 ```

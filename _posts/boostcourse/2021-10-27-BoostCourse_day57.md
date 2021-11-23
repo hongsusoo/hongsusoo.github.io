@@ -26,7 +26,7 @@ last_modified_at: 2021-10-27
 ## 학습 내용
 
 - WSSS(<a href="https://hongsusoo.github.io/ai_dlbasic/dl_wsss"><img src="https://img.shields.io/badge/-WSSS-red"/></a>)
-- WSSS(<a href="https://hongsusoo.github.io/ai_models/md_hrnet"><img src="https://img.shields.io/badge/-HR Net-red"/></a>)
+- HRNet(<a href="https://hongsusoo.github.io/ai_models/md_hrnet"><img src="https://img.shields.io/badge/-HR Net-red"/></a>)
 - Cutmix Test 진행
 
 ![image](https://user-images.githubusercontent.com/77658029/139884540-3981c9e8-4706-4896-b093-2bdac511be8c.png)

@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - py_error
+  - Python Error
 tags:
   - 
 date: 2021-11-10
