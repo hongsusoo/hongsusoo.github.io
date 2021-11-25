@@ -58,7 +58,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DL Basic" %}
-                        <li><a href="/categories/DL Basic" class="">DL Basic({{category[1].size}})</a></li>
+                        <li><a href="/categories/ai_dlbasic" class="">DL Basic({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
