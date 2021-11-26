@@ -30,7 +30,9 @@ last_modified_at: 2021-11-24
 <br>
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
-
+    
+  네이버 DEVIEW 2021 ([https://deview.kr/2021/sessions](https://deview.kr/2021/sessions), [https://deview.kr/2021/liveBooth](https://deview.kr/2021/liveBooth))
+    
 - **ArtLab** - [NLP 이제 시작(리뷰/성분 등)... / CV는 Segmentation, Detection Skin care app]
     
      개발은 초봉 4천 생각 > 지금은 웹 프론트뽑아용~! (인성 중요시함 → 인성을 하루만에..?🤔)
@@ -42,11 +44,7 @@ last_modified_at: 2021-11-24
     지원해보고 싶으면 [terry@artlab.ai](mailto:terry@artlab.ai) 로 쏴주세용~! 
     ([https://thevc.kr/artlab](https://thevc.kr/artlab)) 
     
-- 피어세션
     
-    네이버 DEVIEW 2021 ([https://deview.kr/2021/sessions](https://deview.kr/2021/sessions), [https://deview.kr/2021/liveBooth](https://deview.kr/2021/liveBooth))
-    
-
 최종프로젝트 논의
 
 - [https://davischallenge.org/](https://davischallenge.org/) (segmentation / data = video)
