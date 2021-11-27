@@ -65,7 +65,7 @@ last_modified_at: 2021-11-23
 ![image](https://user-images.githubusercontent.com/77658029/142886007-4fb9167c-9f0c-4bd6-aa86-bbec4de00ec0.png)
 - GPR : Gaussian Process Regression
 - Regression의 경우 주어진 Data로 에측하고 싶은 f에 가장 가깝게 근사시키는 것
-- 기존에 주어진 $(X,Y)$와 새롭게 주어진 $X_{*}$를 활용하여 $Y_{*}$ 추정
+- 기존에 주어진 $(X,Y)$와 새롭게 주어진 $X_{\ast}$를 활용하여 $Y_{\ast}$ 추정
 - 단점은 High-dim(O(N^3)), Continuous, Discrete가 혼재된 경우 적용 어려움
 
 #### 추정 과정
@@ -80,7 +80,7 @@ last_modified_at: 2021-11-23
 ### Bayesian Optimization(BO) 과정 설명 - TPE
 
 - TPE : Tree-structured Parzen Estimator
-- 연산 : GPR는 GPR($p(f|\lambda)$)연산을 하지만, TPE는 $p(f|\lambda)$와 $p(\lambda)$를 계산함
+- 연산 : GPR는 GPR($p(f\vert\lambda)$)연산을 하지만, TPE는 $p(f\vert\lambda)$와 $p(\lambda)$를 계산함
 - 현재까지의 Observation들을 특정 Quantile(inverse CDF)로 구분
 - KDE(Kernel Density Estimation)으로 Good Observation 분포(p(g)), bad Observation의 분포 (p(b))를 각각 추정
 - p(g)/p(b)는 EI(Expected Improvement, Acquisition Function중 하나)에 비례하여 높은 값을 가지는 $\lambda$를 다음 Step으로 설정

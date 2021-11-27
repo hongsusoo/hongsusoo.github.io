@@ -93,7 +93,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "AI ETC" %}
-                        <li><a href="/categories/ai_etc" class="">ETC({{category[1].size}})</a></li>
+                        <li><a href="/categories/ai_etc" class="">etc({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -114,6 +114,13 @@
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">ETC</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ETC" %}
+                        <li><a href="/categories/etc" class="">etc({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "boostcourse" %}
