@@ -107,6 +107,18 @@ last_modified_at: 2021-08-20
 
   - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day60"><img src="https://img.shields.io/badge/-Day60-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day61"><img src="https://img.shields.io/badge/-Day61-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day62"><img src="https://img.shields.io/badge/-Day62-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day63"><img src="https://img.shields.io/badge/-Day63-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day64"><img src="https://img.shields.io/badge/-Day64-red"/></a>
 
+### [week15] OCR + data annotation
+
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day65"><img src="https://img.shields.io/badge/-Day65-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day66"><img src="https://img.shields.io/badge/-Day66-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day67"><img src="https://img.shields.io/badge/-Day67-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day68"><img src="https://img.shields.io/badge/-Day68-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day69"><img src="https://img.shields.io/badge/-Day69-red"/></a>
+
+### [week16] OCR + data annotation
+
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day70"><img src="https://img.shields.io/badge/-Day70-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day71"><img src="https://img.shields.io/badge/-Day71-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day72"><img src="https://img.shields.io/badge/-Day72-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day73"><img src="https://img.shields.io/badge/-Day73-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day74"><img src="https://img.shields.io/badge/-Day74-red"/></a>
+
+### [week17] 최적화, Optuna
+
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day75"><img src="https://img.shields.io/badge/-Day75-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day76"><img src="https://img.shields.io/badge/-Day76-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day77"><img src="https://img.shields.io/badge/-Day77-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day78"><img src="https://img.shields.io/badge/-Day78-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day79"><img src="https://img.shields.io/badge/-Day79-red"/></a>
+
 <br>
 
 <!-- red orange yellow green blue -->

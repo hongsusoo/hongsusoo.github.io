@@ -57,6 +57,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "AI code" %}
+                        <li><a href="/categories/ai_code" class="">AI code({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "DL Basic" %}
                         <li><a href="/categories/ai_dlbasic" class="">DL Basic({{category[1].size}})</a></li>
                     {% endif %}
