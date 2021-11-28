@@ -18,7 +18,7 @@ toc_label: "Label"
 categories:
   - boostcourse
 tags:
-  - [python]
+  - 
 date: 2021-08-01
 last_modified_at: 2021-08-20
 ---
