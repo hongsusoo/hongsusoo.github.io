@@ -121,6 +121,12 @@ last_modified_at: 2021-08-20
 
 <br>
 
+### [week18] 최적화
+
+  - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day80"><img src="https://img.shields.io/badge/-Day80-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day81"><img src="https://img.shields.io/badge/-Day81-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day82"><img src="https://img.shields.io/badge/-Day82-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day83"><img src="https://img.shields.io/badge/-Day83-red"/></a>  <a href="https://hongsusoo.github.io/daily/BoostCourse_day84"><img src="https://img.shields.io/badge/-Day84-red"/></a>
+
+<br>
+
 <!-- red orange yellow green blue -->
 <!-- https://shields.io/ -->
 

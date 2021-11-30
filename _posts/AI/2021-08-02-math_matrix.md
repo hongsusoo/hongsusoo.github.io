@@ -10,8 +10,8 @@ defaults:
       share: true
       related: true
 
-title: "행렬(matrix)"
-excerpt: "about : python"
+title: "[선형대수] 행렬(matrix) 기초"
+excerpt: "about : 선형대수"
 toc: true
 toc_sticky: true
 toc_label: "Label"
