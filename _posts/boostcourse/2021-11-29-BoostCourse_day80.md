@@ -48,7 +48,6 @@ last_modified_at: 2021-11-29
             [https://github.com/shleecs/Copy-and-Paste-Networks-for-Deep-Video-Inpainting](https://github.com/shleecs/Copy-and-Paste-Networks-for-Deep-Video-Inpainting)
 
 
-
 <br>
 
 ```

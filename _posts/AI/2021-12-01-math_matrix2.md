@@ -34,6 +34,7 @@ last_modified_at: 2021-12-01
 ## 정방 행렬(Square Matrix)
 
 - 행과 열의 크기가 같은 행렬(m(행 크기)=n(열 크기))
+- n차 정방행렬
 
 ## 대각 행렬(Diagonal Matrix)
 
@@ -52,23 +53,26 @@ last_modified_at: 2021-12-01
 
 - 주대각선 성분이 모두 1이고 그 외의 성분은 모두 0인 행렬
 - $nxn$의 정방행렬 $A$와 단위행렬을 곱하면 $A$이 그대로 나옴
+- 표기 : $I$
 
 ![image](https://user-images.githubusercontent.com/77658029/144185539-dfbf67e0-582f-4310-876a-5a9fb3087761.png)
 
 
 ## 역행렬(Inverse Matrix)
 
-- 임의의 행렬 $A$의 역행렬은  
+- n차 정방행렬 $A$에 대해서 $AB=BA=I$을 만족하는 행렬 B가 존재할때, B를 A의(A를 B의) **역행렬**이라고 함
+- 표기 : A의 역행렬 = $A^{-1}$
+
+![image](https://user-images.githubusercontent.com/77658029/144186245-b1cf5318-2bde-4300-ab9d-0a30521b8243.png)
 
 ## 직교 행렬(Orthogonal Matrix)
 
-
+- 
 
 ## 대칭행렬(Symmetic Matrix)
 
 - 기존 행렬과 전치 행렬이 같은 행렬
 - $A = A^{T}$
-
 
 
 

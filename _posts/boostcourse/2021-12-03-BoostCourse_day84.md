@@ -31,6 +31,21 @@ last_modified_at: 2021-12-03
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
 
+- 최적화 대회 정리
+
+
+## 📝멘토링
+
+1. REAL TIME 가능할까?
+    - REAL TIME 포기하고 녹화된 영상 서버로 보내면 서버에서 INFERENCE하고 결과 보내주기
+    - 데스크탑 서버로
+    
+결과 발표 시 real tim을 빼고 sample video 넣어서 inference결과 보여주기
+
+멘토님 프로젝트 예시 : [https://github.com/minsuk-sung/boaz-adv-project](https://github.com/minsuk-sung/boaz-adv-project)
+
+- 실시간 어려움
+- 웹 - 장고
 
 <br>
 
