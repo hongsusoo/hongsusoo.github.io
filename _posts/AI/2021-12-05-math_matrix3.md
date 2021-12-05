@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[선형대수] 행렬의 종류"
+title: "[선형대수] 고윳값 "
 excerpt: "about : 선형대수"
 toc: true
 toc_sticky: true
@@ -19,8 +19,8 @@ categories:
   - AI Math
 tags:
   - [선형대수]
-date: 2021-12-01
-last_modified_at: 2021-12-01
+date: 2021-12-05
+last_modified_at: 2021-12-05
 ---
 
 <br>

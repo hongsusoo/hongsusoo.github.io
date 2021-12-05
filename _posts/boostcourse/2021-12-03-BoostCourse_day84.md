@@ -25,6 +25,8 @@ last_modified_at: 2021-12-03
 
 ## 학습 내용
 
+- 선형대수 공부(<a href="https://hongsusoo.github.io/ai%20math/math_matrix3"><img src="https://img.shields.io/badge/-고윳값분해-red"/></a>)
+
 - 최적화 1,2등 Solution 정리
   - Target Device 확인하기 : 채점 Server는 GPU로 진행하게됨
   - CPU는 작은 연산을 여러번 하는 것이 적합하고, GPU는 한번에 많은 연산에 적합함
