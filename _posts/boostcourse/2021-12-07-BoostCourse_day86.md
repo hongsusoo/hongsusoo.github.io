@@ -10,7 +10,7 @@ defaults:
       share: true
       related: true
 
-title: "[boostcourse] Day85 학습기록_팀명뭘로하조"
+title: "[boostcourse] Day86 학습기록_팀명뭘로하조"
 excerpt: "about : python"
 toc: true
 toc_sticky: true
@@ -19,8 +19,8 @@ categories:
   - daily
 tags:
   - []
-date: 2021-12-06
-last_modified_at: 2021-12-06
+date: 2021-12-07
+last_modified_at: 2021-12-07
 ---
 
 ## 학습 내용
