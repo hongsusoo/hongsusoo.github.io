@@ -112,6 +112,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Network</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Network Basic" %}
+                        <li><a href="/categories/nw_basic" class="">Network Basic({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
