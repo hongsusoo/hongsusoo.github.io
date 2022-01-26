@@ -60,6 +60,7 @@ drive.mount('/content/drive/')
 
 **📌reference**
 - [hongni](https://leti-lee.tistory.com/3)
+https://data-jj.tistory.com/16
 <br>
 
 ```
