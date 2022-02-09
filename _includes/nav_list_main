@@ -11,6 +11,22 @@
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
+        <span class="nav__sub-title">Computer Science</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Computer Science" %}
+                        <li><a href="/categories/cs_basic" class="">Computer Science({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">C/C++</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "C++ Basic" %}
+                        <li><a href="/categories/cpp_basic" class="">C++ Basic({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">python</span>
             <ul>
                 {% for category in site.categories %}

@@ -1,3 +1,9 @@
+## Computer Science
+    Python(cs_basic) : Data Structure, Computer Science ..
+
+## C/C++
+    Python(cpp_basic) : 
+
 ## Python
     Basic(py_basic) : python 전반적인 문법
     Numpy(py_numpy) : Numpy 관련 문법
