@@ -175,9 +175,10 @@ Max -> min으로 바꾸기 위한 `-`
 
 확률의 곱연산을 합의 연산으로 바꾸기 위해 `Log`를 붙여준다. 
 
-수식으로 표현하면 $-log(p(y|f_\theta (x)))$
+수식으로 표현하면 $-log(p(y\mid f_\theta (x)))$
 
-✔️ Maximum Likelihood는 샘플의 확률값이 곱으로 표현되는데, 이를 위해 i.i.d Condition을 만족시켜야 한다.(independence Identical Distribution, 독립, 동일 분포)
+
+💡 Maximum Likelihood는 샘플의 확률값이 곱으로 표현되는데, 이를 위해 i.i.d Condition을 만족시켜야 한다.(independence Identical Distribution, 독립, 동일 분포)
 
 이렇게 정의하게 될 경우 Backpropagation을 위한 조건 2가지를 모두 만족 시킬 수 있게 된다. 
 
