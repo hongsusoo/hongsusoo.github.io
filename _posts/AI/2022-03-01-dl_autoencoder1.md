@@ -11,7 +11,7 @@ defaults:
       related: true
 
 title: "Autoencoder 기초(1/5)"
-excerpt: "about : segmentation"
+excerpt: "about : Autoencoder"
 toc: true
 toc_sticky: true
 toc_label: "Label"
