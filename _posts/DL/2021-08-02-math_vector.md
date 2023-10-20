@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  Linear Algebra
+  - Linear Algebra
 tags:
   - 
 date: 2021-08-02
