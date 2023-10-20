@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - AI ETC
+  - DL etc
 tags:
   - [경량화, AutoML]
 date: 2021-11-23

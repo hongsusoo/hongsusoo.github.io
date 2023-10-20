@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-08-04
@@ -26,7 +26,7 @@ last_modified_at: 2021-08-04
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai_math/math_statistics_basic"><img src="https://img.shields.io/badge/-통계학-red"/></a> <a href="https://hongsusoo.github.io/ai_dlbasic/CNN_basic"><img src="https://img.shields.io/badge/-CNN-red"/></a>
+<a href="https://hongsusoo.github.io/math/math_statistics_basic"><img src="https://img.shields.io/badge/-통계학-red"/></a> <a href="https://hongsusoo.github.io/dl/CNN_basic"><img src="https://img.shields.io/badge/-CNN-red"/></a>
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
 

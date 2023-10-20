@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories: 
-  - AI ETC
+  - DL etc
 tags:
   - [DL Flow]
 date: 2022-01-06
@@ -28,7 +28,7 @@ last_modified_at: 2022-01-06
 # Deep Learning
 
 ## 1. Neural Network
-<a href="https://hongsusoo.github.io/dl%20basic/dl_neural_network_basic"><img src="https://img.shields.io/badge/-신경망-red"/></a>
+<a href="https://hongsusoo.github.io/dl/dl_neural_network_basic"><img src="https://img.shields.io/badge/-신경망-red"/></a>
 
 ### 가중치 행렬
 ### Activation Function

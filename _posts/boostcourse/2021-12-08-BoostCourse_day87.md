@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-12-08
@@ -25,7 +25,7 @@ last_modified_at: 2021-12-08
 
 ## 학습 내용
 
-- MLOps 개론 정리(<a href="https://hongsusoo.github.io/ai%20etc/etc_mlopsoverview"><img src="https://img.shields.io/badge/-MLOps 개론-red"/></a>)
+- MLOps 개론 정리(<a href="https://hongsusoo.github.io/dl%20etc/etc_mlopsoverview"><img src="https://img.shields.io/badge/-MLOps 개론-red"/></a>)
 
 <br>
 

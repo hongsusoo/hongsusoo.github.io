@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-08-19
@@ -28,7 +28,7 @@ last_modified_at: 2021-08-19
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai_dlbasic/dl_pytorch_model_save_load"><img src="https://img.shields.io/badge/-model 저장 및 불러오기-red"/></a> <a href="https://hongsusoo.github.io/ai_visual/viz_pytorch_tensorboard"><img src="https://img.shields.io/badge/-Tensorboard-red"/></a> <a href="https://hongsusoo.github.io/ai_visual/viz_pytorch_wandb"><img src="https://img.shields.io/badge/-Weight  & Biases-red"/></a> <a href="https://hongsusoo.github.io/ai_dlbasic/dl_pytorch_using_trained_model"><img src="https://img.shields.io/badge/-pretrained Model 사용-red"/></a> 
+<a href="https://hongsusoo.github.io/dl/dl_pytorch_model_save_load"><img src="https://img.shields.io/badge/-model 저장 및 불러오기-red"/></a> <a href="https://hongsusoo.github.io/visual/viz_pytorch_tensorboard"><img src="https://img.shields.io/badge/-Tensorboard-red"/></a> <a href="https://hongsusoo.github.io/visual/viz_pytorch_wandb"><img src="https://img.shields.io/badge/-Weight  & Biases-red"/></a> <a href="https://hongsusoo.github.io/dl/dl_pytorch_using_trained_model"><img src="https://img.shields.io/badge/-pretrained Model 사용-red"/></a> 
 
 **🎈 추가 학습**
 

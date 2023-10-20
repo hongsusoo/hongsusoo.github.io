@@ -28,7 +28,7 @@ last_modified_at: 2021-08-20
 
 <br>
 
-### [week01] python basic & AI Math
+### [week01] python basic & Math
 
   - 일과 : <a href="https://hongsusoo.github.io/daily/BoostCourse_day1"><img src="https://img.shields.io/badge/-Day01-red"/></a> <a href="https://hongsusoo.github.io/daily/BoostCourse_day2"><img src="https://img.shields.io/badge/-Day02-red"/></a> <a href="https://hongsusoo.github.io/daily/BoostCourse_day3"><img src="https://img.shields.io/badge/-Day03-red"/></a> <a href="https://hongsusoo.github.io/daily/BoostCourse_day4"><img src="https://img.shields.io/badge/-Day04-red"/></a> <a href="https://hongsusoo.github.io/daily/BoostCourse_day5"><img src="https://img.shields.io/badge/-Day05-red"/></a> 
   - 과제 : <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/1%EC%A3%BC%EC%B0%A8/%ED%95%84%EC%88%98"><img src="https://img.shields.io/badge/-필수과제-orange"/></a> <a href="https://github.com/hongsusoo/boostcourse_assignment/tree/main/1%EC%A3%BC%EC%B0%A8/%EC%84%A0%ED%83%9D"><img src="https://img.shields.io/badge/-선택과제-blue"/></a>

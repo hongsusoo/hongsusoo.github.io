@@ -1,27 +1,30 @@
 ## Computer Science
-    Python(cs_basic) : Data Structure, Computer Science ..
+    cs>cs("Computer Science") : Data Structure, Computer Science ..
+    cs>algorithm("algorithm") : 코테
 
-## C/C++
-    Python(cpp_basic) : 
+## Language
+    CPP("C++") : 
+    python("Python") : python 전반적인 문법
+    pytorch("Pytorch") : 
+    numpy(Numpy) : Numpy 관련 문법
+    pandas(Pandas) : Pandas 관련 문법
 
-## Python
-    Basic(py_basic) : python 전반적인 문법
-    Numpy(py_numpy) : Numpy 관련 문법
-    Pandas(py_pandas) : Pandas 관련 문법
-    Error(py_error) : Python Error
-    시각화(py_visual) : 시각화, plt, seaborn
+## Math
+    확률통계(probability_statistics) : AI 수학
+    선형대수(linear_algebra) : AI 수학
 
-## AI
-    Math(ai_math)_ai%20math : AI 수학
-    DL Basic(ai_dlbasic)_dl%20basic : DL 초기 컨셉 및 설명, Pytorch등 플랫폼 설명
-    시각화(ai_visual)_ai%20visualization : 시각화, gradient, 
-    Models(ai_models)_ai%20model : Model 정리
-    Paper Review(ai_pr)_ai%20paper%20review : Paper Review
-    library(ai_library) : mmdetection, mmseg, detectron
-    etc(ai_etc)_ai%20etc : 윤리, 저작권, Annotation, 경량화
+## tools
+    visual("Visualization") : 시각화, plt, seaborn
+
+## deep learning
+    DL(ai_dl)_dl%20basic : DL 초기 컨셉 및 설명, Pytorch등 플랫폼 설명
+    Models(dl)_ai%20model : Model 정리
+    Paper Review(pr)_pr : Paper Review
+    library(dl) : mmdetection, mmseg, detectron
+    etc(dl_etc)_dl%20etc : 윤리, 저작권, Annotation, 경량화
 
 ## Coding Test
-    Python(ct_python) : 코테
+    Python(algorithm) : 코테
 
 ## ETC
     etc(etc) : LaTeX 문법정리

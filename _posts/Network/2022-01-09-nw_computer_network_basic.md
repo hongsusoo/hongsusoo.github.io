@@ -11,12 +11,12 @@ defaults:
       related: true
 
 title: "Computer Networking 기초 정리"
-excerpt: "about : Network Basic"
+excerpt: "about : Network"
 toc: true
 toc_sticky: true
 toc_label: "Label"
 categories: 
-  - Network Basic
+  - Network
 tags:
   - [Computer Networking]
 date: 2022-01-09

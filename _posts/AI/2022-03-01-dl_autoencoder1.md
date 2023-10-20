@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - DL Basic
+  - DL
 tags:
   - [autoencoder]
 date: 2022-03-01

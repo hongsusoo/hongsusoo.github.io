@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-11-22
@@ -25,7 +25,7 @@ last_modified_at: 2021-11-22
 
 ## 학습 내용
 
-- <a href="https://hongsusoo.github.io/ai%20etc/etc_lightweighting"><img src="https://img.shields.io/badge/-경량화 목적-red"/></a>
+- <a href="https://hongsusoo.github.io/dl%20etc/etc_lightweighting"><img src="https://img.shields.io/badge/-경량화 목적-red"/></a>
 
 <br>
 

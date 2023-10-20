@@ -1,11 +1,10 @@
 ---
-title: "시각화"
+title: "Computer Science"
 layout: archive
-permalink: categories/ai_visual
+permalink: categories/cs
 author_profile: true
 sidebar_main: true
 ---
 
-
-{% assign posts = site.categories['AI visualization'] %}
+{% assign posts = site.categories['Computer Science'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

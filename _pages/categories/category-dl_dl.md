@@ -1,11 +1,11 @@
 ---
-title: "시각화"
+title: "Models"
 layout: archive
-permalink: categories/py_visual
+permalink: categories/dl
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories['Python Visualization'] %}
+{% assign posts = site.categories['DL'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

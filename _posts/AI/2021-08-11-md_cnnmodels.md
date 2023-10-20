@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - AI Model
+  - DL
 tags:
   - [CNN model]
 date: 2021-08-11

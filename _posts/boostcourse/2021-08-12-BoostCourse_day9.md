@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-08-12
@@ -26,7 +26,7 @@ last_modified_at: 2021-08-12
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai_models/md_transformer_intro"><img src="https://img.shields.io/badge/-transformer-red"/></a> <a href="https://hongsusoo.github.io/ai_models/md_rnnmodel"><img src="https://img.shields.io/badge/-RNN Model-red"/></a>
+<a href="https://hongsusoo.github.io/dl/md_transformer_intro"><img src="https://img.shields.io/badge/-transformer-red"/></a> <a href="https://hongsusoo.github.io/dl/md_rnnmodel"><img src="https://img.shields.io/badge/-RNN Model-red"/></a>
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
 

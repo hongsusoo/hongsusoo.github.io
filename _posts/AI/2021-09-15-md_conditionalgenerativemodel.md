@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - AI Model
+  - DL
 tags:
   - [Generative model, GAN]
 date: 2021-09-15

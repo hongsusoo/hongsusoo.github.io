@@ -15,132 +15,111 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Computer Science" %}
-                        <li><a href="/categories/cs_basic" class="">Computer Science({{category[1].size}})</a></li>
+                        <li><a href="/categories/cs" class="">Computer Science({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">C/C++</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "C++ Basic" %}
-                        <li><a href="/categories/cpp_basic" class="">C++ Basic({{category[1].size}})</a></li>
+                    {% if category[0] == "algorithm" %}
+                        <li><a href="/categories/algorithm" class="">Python({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">python</span>
+        <span class="nav__sub-title">Language</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Python Basic" %}
-                        <li><a href="/categories/py_basic" class="">Basic({{category[1].size}})</a></li>
+                    {% if category[0] == "C++" %}
+                        <li><a href="/categories/cpp" class="">C++({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Python" %}
+                        <li><a href="/categories/python" class="">Basic({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Pytorch" %}
+                        <li><a href="/categories/pytorch" class="">Basic({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Numpy" %}
-                        <li><a href="/categories/py_numpy" class="">Numpy({{category[1].size}})</a></li>
+                        <li><a href="/categories/numpy" class="">Numpy({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Pandas" %}
-                        <li><a href="/categories/py_pandas" class="">Pandas({{category[1].size}})</a></li>
+                        <li><a href="/categories/pandas" class="">Pandas({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">MATH</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "확률 통계" %}
+                        <li><a href="/categories/probability_statistics" class="">확률 통계({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Python Visualization" %}
-                        <li><a href="/categories/py_visual" class="">시각화({{category[1].size}})</a></li>
+                    {% if category[0] == "선형 대수" %}
+                        <li><a href="/categories/linear_algebra" class="">선형 대수({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">CV</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Camera" %}
+                        <li><a href="/categories/camera" class="">DL({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Deep Learning</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "DL" %}
+                        <li><a href="/categories/dl" class="">DL({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Python Error" %}
-                        <li><a href="/categories/py_error" class="">Error({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">AI</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "AI Math" %}
-                        <li><a href="/categories/ai_math" class="">Math({{category[1].size}})</a></li>
+                    {% if category[0] == "Paper Review" %}
+                        <li><a href="/categories/pr" class="">Paper Review({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "AI code" %}
-                        <li><a href="/categories/ai_code" class="">AI code({{category[1].size}})</a></li>
+                    {% if category[0] == "DL etc" %}
+                        <li><a href="/categories/dl_etc" class="">etc({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Tools</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "DL Basic" %}
-                        <li><a href="/categories/ai_dlbasic" class="">DL Basic({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "AI visualization" %}
-                        <li><a href="/categories/ai_visual" class="">시각화({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "AI Model" %}
-                        <li><a href="/categories/ai_models" class="">Models({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "AI Paper Review" %}
-                        <li><a href="/categories/ai_pr" class="">Paper Review({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "AI Library" %}
-                        <li><a href="/categories/ai_library" class="">Library({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "AI ETC" %}
-                        <li><a href="/categories/ai_etc" class="">etc({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">Project</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "project1" %}
-                        <li><a href="/categories/project1" class="">Mask Classification({{category[1].size}})</a></li>
+                    {% if category[0] == "Visualization" %}
+                        <li><a href="/categories/visual" class="">시각화({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">Network</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Network Basic" %}
-                        <li><a href="/categories/nw_basic" class="">Network Basic({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">Coding Test</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Python Coding Test" %}
-                        <li><a href="/categories/ct_python" class="">Python({{category[1].size}})</a></li>
+                    {% if category[0] == "Network" %}
+                        <li><a href="/categories/nw" class="">Network({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

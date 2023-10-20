@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-09-24
@@ -25,7 +25,7 @@ last_modified_at: 2021-09-24
 
 ## 학습 내용
 
-- 특강 : <a href="https://hongsusoo.github.io/ai_etc/etc_AI_ethics"><img src="https://img.shields.io/badge/-AI ethics-red"/></a>
+- 특강 : <a href="https://hongsusoo.github.io/dl_etc/etc_AI_ethics"><img src="https://img.shields.io/badge/-AI ethics-red"/></a>
 
 <br>
 

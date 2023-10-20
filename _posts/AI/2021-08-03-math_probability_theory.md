@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - AI Math
+  확률 통계
 tags:
   - [확률]
 date: 2021-08-03

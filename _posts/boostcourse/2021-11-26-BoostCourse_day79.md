@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-11-26
@@ -25,7 +25,7 @@ last_modified_at: 2021-11-26
 
 ## 학습 내용
 
-- <a href="https://hongsusoo.github.io/ai%20etc/etc_lightweighting3"><img src="https://img.shields.io/badge/-Pruning-red"/></a>
+- <a href="https://hongsusoo.github.io/dl%20etc/etc_lightweighting3"><img src="https://img.shields.io/badge/-Pruning-red"/></a>
 - Baseline 분석 및 optuna 적용
 - 데이터톤 수상식 다녀오기(National Pathology Health Datathon 2021)_[github link](https://github.com/hongsusoo/NPHD2021_gi_cell)
 

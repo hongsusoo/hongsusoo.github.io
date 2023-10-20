@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories: 
-  - AI ETC
+  - DL etc
 tags:
   - [Product Serving]
 date: 2021-12-09

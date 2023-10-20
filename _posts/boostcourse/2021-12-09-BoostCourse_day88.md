@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-12-09
@@ -25,7 +25,7 @@ last_modified_at: 2021-12-09
 
 ## 학습 내용
 
-- Product serving 기초(<a href="https://hongsusoo.github.io/ai%20etc/etc_mlserving"><img src="https://img.shields.io/badge/-Product Serving-red"/></a>)
+- Product serving 기초(<a href="https://hongsusoo.github.io/dl%20etc/etc_mlserving"><img src="https://img.shields.io/badge/-Product Serving-red"/></a>)
 
 <br>
 

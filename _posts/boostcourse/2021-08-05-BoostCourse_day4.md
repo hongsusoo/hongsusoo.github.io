@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-08-05
@@ -26,7 +26,7 @@ last_modified_at: 2021-08-05
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai_dlbasic/dl_RNN_basic"><img src="https://img.shields.io/badge/-RNN-red"/></a>
+<a href="https://hongsusoo.github.io/dl/dl_RNN_basic"><img src="https://img.shields.io/badge/-RNN-red"/></a>
 
 
 ## 피어세션 👨‍👨‍👦‍👦 👨‍👨‍👦
@@ -79,7 +79,7 @@ last_modified_at: 2021-08-05
 ## 🌞마스터 클래스🌞
 
 
-오늘은 피어세션 끝나고 "마스터 클래스"라는 AI Math 강의를 해주신 임성빈 마스터님이 우리 질문에 답해주는 시간을 가졌다.
+오늘은 피어세션 끝나고 "마스터 클래스"라는 Math 강의를 해주신 임성빈 마스터님이 우리 질문에 답해주는 시간을 가졌다.
 
 1. AI에서 수학이 얼마나 필요한가
     

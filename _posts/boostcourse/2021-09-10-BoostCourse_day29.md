@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-09-10
@@ -25,7 +25,7 @@ last_modified_at: 2021-09-10
 
 ## 학습 내용
 
-- <a href="https://hongsusoo.github.io/ai_models/md_objectdetection_model"><img src="https://img.shields.io/badge/-object detection-red"/></a>
+- <a href="https://hongsusoo.github.io/dl/md_objectdetection_model"><img src="https://img.shields.io/badge/-object detection-red"/></a>
 
 <br>
 

@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - DL Basic
+  - DL
 tags:
   - [Validationset]
 date: 2021-10-22

@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - AI visualization
+  - Visualization
 tags:
   - [PyTorch, monitoring]
 date: 2021-08-19

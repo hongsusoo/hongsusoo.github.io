@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-10-25
@@ -25,7 +25,7 @@ last_modified_at: 2021-10-25
 
 ## 학습 내용
 
-- Validation set 구축(<a href="https://hongsusoo.github.io/ai_dlbasic/dl_validationset"><img src="https://img.shields.io/badge/-validation set-red"/></a>)
+- Validation set 구축(<a href="https://hongsusoo.github.io/dl/dl_validationset"><img src="https://img.shields.io/badge/-validation set-red"/></a>)
 
 <br>
 

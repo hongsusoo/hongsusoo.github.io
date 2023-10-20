@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-08-11
@@ -26,7 +26,7 @@ last_modified_at: 2021-08-11
 
 ## 학습 내용
 
-<a href="https://hongsusoo.github.io/ai_models/md_cnnmodels"><img src="https://img.shields.io/badge/-CNN Model-red"/></a> <a href="https://hongsusoo.github.io/ai_models/md_CVmodels"><img src="https://img.shields.io/badge/-CV-red"/></a>
+<a href="https://hongsusoo.github.io/dl/md_cnnmodels"><img src="https://img.shields.io/badge/-CNN Model-red"/></a> <a href="https://hongsusoo.github.io/dl/md_CVmodels"><img src="https://img.shields.io/badge/-CV-red"/></a>
 
 
 선택2번 추가 공부
@@ -75,7 +75,7 @@ last_modified_at: 2021-08-11
 
     답 : sigmoid - gradient vanishing 
 
-    [DL Basic 추가정리) Weight Initialize를 하는 이유?](https://velog.io/@hanlyang0522/weight-init%EC%9D%84-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
+    [DL 추가정리) Weight Initialize를 하는 이유?](https://velog.io/@hanlyang0522/weight-init%EC%9D%84-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
 
 3. 질문 : 이미지 분류대회를 했을떄 모델 말고 다른 선택해야할게 있을까?
 

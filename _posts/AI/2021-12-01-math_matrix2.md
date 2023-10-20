@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - AI Math
+  선형 대수
 tags:
   - [선형대수]
 date: 2021-12-01

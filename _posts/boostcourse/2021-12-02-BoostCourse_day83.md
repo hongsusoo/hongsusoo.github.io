@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-12-02
@@ -27,7 +27,7 @@ last_modified_at: 2021-12-02
 
 - optuna로 탐색한 모델들 중 가벼운 모델 몇까지로 추가 학습을 진행함
 - 기존보다 높은 LB 점수 확인했지만, 아직 기준선을 넘지는 못함
-- 선형대수 공부(<a href="https://hongsusoo.github.io/ai%20math/math_matrix2"><img src="https://img.shields.io/badge/-행렬 종류-red"/></a>)
+- 선형대수 공부(<a href="https://hongsusoo.github.io/math/math_matrix2"><img src="https://img.shields.io/badge/-행렬 종류-red"/></a>)
 
 <br>
 

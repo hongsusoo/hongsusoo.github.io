@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - AI ETC
+  - DL etc
 tags:
   - [Quant Trading]
 date: 2021-09-23

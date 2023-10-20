@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - DL Basic
+  - DL
 tags:
   - [autoencoder]
 date: 2022-03-08
@@ -53,7 +53,7 @@ Encoder를 통해 차원을 축소시키는 역할을 해주고(**Manifold Learn
 
 Autoencoder에 대한 정확한 이해를 위해 DNN과 Manifold learning에 대한 기초 지식을 쌓고(Chapter 1,2), Autoencoder에 대한 설명(Chapter 3,4), 그리고 어떻게 활용되는지(Chapter 5) 순서로 정리할 예정이다.
 
-[chapter 1 정리](https://hongsusoo.github.io/dl%20basic/dl_autoencoder1)
+[chapter 1 정리](https://hongsusoo.github.io/dl/dl_autoencoder1)
 
 
 ---

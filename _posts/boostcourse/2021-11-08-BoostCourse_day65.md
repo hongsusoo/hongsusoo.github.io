@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-11-08
@@ -25,7 +25,7 @@ last_modified_at: 2021-11-08
 
 ## 학습 내용
 
-- annotation guideline (<a href="https://hongsusoo.github.io/ai_etc/etc_annotation"><img src="https://img.shields.io/badge/-annotation guideline-red"/></a>)
+- annotation guideline (<a href="https://hongsusoo.github.io/dl_etc/etc_annotation"><img src="https://img.shields.io/badge/-annotation guideline-red"/></a>)
 
 <br>
 

@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - daily
+  - boostcourse
 tags:
   - []
 date: 2021-12-03
@@ -25,7 +25,7 @@ last_modified_at: 2021-12-03
 
 ## 학습 내용
 
-- 선형대수 공부(<a href="https://hongsusoo.github.io/ai%20math/math_matrix3"><img src="https://img.shields.io/badge/-고윳값분해-red"/></a>)
+- 선형대수 공부(<a href="https://hongsusoo.github.io/math/math_matrix3"><img src="https://img.shields.io/badge/-고윳값분해-red"/></a>)
 
 - 최적화 1,2등 Solution 정리
   - Target Device 확인하기 : 채점 Server는 GPU로 진행하게됨

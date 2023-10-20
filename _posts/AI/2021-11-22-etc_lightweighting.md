@@ -10,13 +10,13 @@ defaults:
       share: true
       related: true
 
-title: "AI Model의 경량화 필요성"
+title: "DL의 경량화 필요성"
 excerpt: "about : 경량화"
 toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - AI ETC
+  - DL etc
 tags:
   - [경량화]
 date: 2021-11-22

@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - AI code
+  - DL
 tags:
   - [wandb, monitoring]
 date: 2021-11-27
