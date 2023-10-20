@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - AI
+  - boostcourse
 tags:
   - 
 date: 2021-10-18

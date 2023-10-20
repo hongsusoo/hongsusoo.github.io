@@ -21,8 +21,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "algorithm" %}
-                        <li><a href="/categories/algorithm" class="">Python({{category[1].size}})</a></li>
+                    {% if category[0] == "Algorithm" %}
+                        <li><a href="/categories/algorithm" class="">Algorithm({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -37,14 +37,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Python" %}
-                        <li><a href="/categories/python" class="">Basic({{category[1].size}})</a></li>
+                        <li><a href="/categories/python" class="">Python({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Pytorch" %}
-                        <li><a href="/categories/pytorch" class="">Basic({{category[1].size}})</a></li>
+                        <li><a href="/categories/pytorch" class="">Pytorch({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -65,15 +65,15 @@
         <span class="nav__sub-title">MATH</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "확률 통계" %}
-                        <li><a href="/categories/probability_statistics" class="">확률 통계({{category[1].size}})</a></li>
+                    {% if category[0] == "Probability/Statistics" %}
+                        <li><a href="/categories/probability_statistics" class="">Probability/Statistics({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "선형 대수" %}
-                        <li><a href="/categories/linear_algebra" class="">선형 대수({{category[1].size}})</a></li>
+                    {% if category[0] == "Linear Algebra" %}
+                        <li><a href="/categories/linear_algebra" class="">Linear Algebra({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

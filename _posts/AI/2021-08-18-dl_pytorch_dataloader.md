@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - DL
+  - Pytorch
 tags:
   - [PyTorch]
 date: 2021-08-18

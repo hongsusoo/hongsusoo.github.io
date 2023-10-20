@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - AI_project
+  - boostcourse
 tags:
   - [CV, Modeling, Pstage-01]
 date: 2021-08-24
