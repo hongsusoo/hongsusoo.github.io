@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  - Python Basic
+  - python
 tags:
   - 
 date: 2021-07-07

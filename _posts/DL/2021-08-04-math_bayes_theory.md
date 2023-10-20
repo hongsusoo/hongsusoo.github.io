@@ -16,7 +16,7 @@ toc: true
 toc_sticky: true
 toc_label: "Label"
 categories:
-  확률 통계
+  Probability/Statistics
 tags:
   - 
 date: 2021-08-04
